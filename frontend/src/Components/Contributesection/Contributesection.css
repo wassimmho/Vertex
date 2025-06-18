@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+
+.contribute-container{
+    height: 60vh;
+    width: 100%;
+    background: #389CFF;
+    color: white;
+    padding: 40px;
+    grid-template-columns: 2fr 1fr;
+    display: grid;
+    font-family: 'poppins', sans-serif;
+    overflow: hidden;
+}
+
+.contribute-content{
+    columns: 1 / span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+
+.contribute-media{
+    columns: 2 / span 1;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+#contribute-title{
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: 'poppins', sans-serif;
+}
+
+#contribute-paragraph{
+    font-family: 'roboto mono', monospace;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    width: 75%;
+    margin-left: 10px;
+}
+
+#contribute-button{
+    background-color: #ffffff;
+    color: #000;
+    border: 2px solid black;
+    height: 70px;
+    width: 280px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    position: relative;
+    margin: 20px 0;
+    z-index: 0;
+    border-radius: 3px;
+    z-index: 2;
+}
+
+#contribute-button::after {
+    border: 2px solid black;
+    background: #ffffff;
+    content: 'Make an Impact';
+    font-size: 1.2rem;
+    font-weight: 600;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    color: black;
+    font-family: 'poppins', sans-serif;
+    top: 10px;
+    right: 5px;
+    transition: top 0.3s ease, right 0.3s ease;
+
+}
+
+#contribute-button:hover::after {
+    top: 0;
+    right: 0;
+}
+
+#contribute-button:hover {
+    border: none;
+}
+
+.shape{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+#topshape{
+    top: -290px;
+    right: -100px;
+}
+
+#bottomshape{
+    right: -110px;
+    bottom: -150px;
+}

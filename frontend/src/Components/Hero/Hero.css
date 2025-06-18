@@ -3,14 +3,168 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
 .hero-container {
-height: 100vh;
-background-color: #E7EEF4;
-font-family: "Roboto mono", sans-serif;
+    height: 90vh;
+    background-color: #E7EEF4;
+    font-family: "Roboto mono", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 50px;
+
 }
 
 #hero-title{
     margin: 0;
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 2.2rem;
+
+}
+
+.hero-section{
+    grid-column: 1 / span 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 10px ;
+    gap: 20px;
+}
+
+.hero-media{
+    grid-column: 2 / span 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.hero-btn{
+    background-color: #ffffff;
+    color: #000;
+    border: 1px dashed black;
+    height: 50px;
+    width: 200px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    position: relative;
+    margin: 20px 0;
+    z-index: 0;
+    border-radius: 3px;
+
+}
+
+
+.hero-btn::after {
+    content: 'Contribute';
+    font-weight: 500;
+    position: absolute;
+    text-align: center;
+    align-content: center;
+    top: 5px;
+    left: 5px;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border: 1px solid black;
+    z-index: -1;
+    transition: top 0.2s ease, left 0.2s ease, border 0.2s ease, background-color 0.1s ease;
+    border-radius: 3px;
+}
+
+.hero-btn:hover::after {
+    top: 0;
+    left: 0;
+    border: 1px solid black;
+}
+
+.hero-btn:hover {
+    border: none;
+    background-color: transparent;
+}
+
+
+.hero-note{
+    color: rgba(0, 0, 0, 0.548);
+    font-size: 0.6rem;
+    width: 70%;
+}
+
+#hero-paragraph{
+    width: 80%;
+    font-size: 1.1rem;
+}
+
+.hero-dots{
+    position: absolute;
+}
+
+.hero-bulb{
+    position: absolute;
+    z-index: 1;
+}
+
+#topdots{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#bottomdots{
+    bottom: 20%;
+    right: 10px;
+}
+.classes-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    width: 250px;
+    height: 70px;
+    position: absolute;
+    z-index: 2;
+}
+
+#box-hero-1{
+    top: 5%;
+    left: 2%;
+}
+
+#box-hero-2{
+    top: 35%;
+    right: 2%;
+}
+
+#box-hero-3{
+    top: 65%;
+    left: 2%;
+}
+
+.linkedin-icon-hero{
+    height: 30px;
+    width: auto;
+}
+
+.classes-hero-title-{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+}
+
+#form-button-hero{
+    background-color: #389CFF;
+    color: #ffffff;
+    border: none;
+    height: 40px;
+    width: 150px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    position: relative;
+    margin: 20px 0;
+    z-index: 0;
+    border-radius: 3px;
 }
