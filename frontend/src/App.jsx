@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Hero from './Components/Hero/Hero.jsx'
+import Home from './Pages/Home/Home.jsx'
 import './App.css'
 
 function App() {
@@ -7,9 +7,9 @@ function App() {
 
   return (
     <>
-        <Hero/>
+        <Home/>
     </>
   )
 }
 
-export default App
+export default App;
