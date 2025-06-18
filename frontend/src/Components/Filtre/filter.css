@@ -1,0 +1,71 @@
+.filtre-container {
+  padding: 24px 0 0 32px;
+  background: #fff;
+  height: 83vh;
+  width: 30%;
+  font-family: 'Inter', Arial, sans-serif;
+  box-sizing: border-box;
+  margin-left  : 50px;
+  margin-top: 20px;
+}
+
+.filtre-section {
+  margin-bottom: 32px;
+}
+
+.filtre-header {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.filtre-title {
+  margin-right: 8px;
+}
+
+.filtre-header span:last-child {
+  margin-left: auto;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.filtre-years {
+  margin-left: 8px;
+  padding-top: 12px;
+}
+
+.filtre-year {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 6px;
+  margin-left: 16px;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.2s;
+  padding-top:7px ;
+}
+
+.filtre-year span {
+  margin-left: auto;
+  font-size: 1rem;
+}
+
+.filtre-specialities {
+  margin-left: 32px;
+  margin-top: 4px;
+  margin-bottom: 6px;
+  padding-left: 12px;
+  list-style: disc;
+  color: #444;
+  font-size: 1rem;
+}
+
+.filtre-specialities li {
+  margin-bottom: 2px;
+}

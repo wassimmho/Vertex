@@ -1,0 +1,43 @@
+.Study-container {
+    width: 100%;
+    min-height: 100vh; /* This ensures the container is at least as tall as the viewport */
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    overflow: hidden;
+}
+
+.Footer-doc {
+    margin-bottom: 10px;
+}
+.container-module-info{
+    display: flex;
+    gap:20px;
+}
+.module-info{
+    width:120vmax;
+    height: 660px;
+}
+.module-name{
+    padding-left: 3vw;
+    font-family: 'Space Grotesk';
+}
+.module-exp{
+    font-family: 'Roboto Mono', sans-serif;
+    padding-left: 3vw;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto Mono';
+    padding-left: 3vw;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+    gap: 4vw;
+}
+.resources{
+    padding-left: 4vw;
+    padding-top: 2vh;
+    width: 20vw;
+    height: auto;
+}
