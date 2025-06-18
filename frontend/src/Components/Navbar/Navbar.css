@@ -71,3 +71,7 @@
 }
 
 
+.nav-links li.active a{
+    color: #2F94F9;
+    font-weight: 600;
+}

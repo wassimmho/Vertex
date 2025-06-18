@@ -1,0 +1,108 @@
+[
+  {
+    "id": "S5",
+    "courses": [
+      {
+        "id": "UEF51",
+        "title": "Mathematical Tools for Cryptography",
+        "description": "Mathematical foundations and tools used in cryptography.",
+        "coeff": 4
+      },
+      {
+        "id": "UEF51-OR",
+        "title": "Operational Research",
+        "description": "Introduction to operational research and optimization techniques.",
+        "coeff": 4
+      },
+      {
+        "id": "UEF52",
+        "title": "Compilation",
+        "description": "Principles and techniques of compiler construction.",
+        "coeff": 4
+      },
+      {
+        "id": "UEF52-SE",
+        "title": "Software Engineering",
+        "description": "Software development methodologies and project management.",
+        "coeff": 2
+      },
+      {
+        "id": "UEM5-PP",
+        "title": "Python Programming",
+        "description": "Advanced programming concepts using Python.",
+        "coeff": 2
+      },
+      {
+        "id": "UEM5-WD",
+        "title": "Web Development",
+        "description": "Fundamentals of web development and technologies.",
+        "coeff": 2
+      },
+      {
+        "id": "UED5-TIC",
+        "title": "Theory of Information and Coding",
+        "description": "Introduction to information theory and coding techniques.",
+        "coeff": 1
+      },
+      {
+        "id": "UET5-BI",
+        "title": "Business Intelligence",
+        "description": "Principles and applications of business intelligence.",
+        "coeff": 1
+      }
+    ]
+  },
+  {
+    "id": "S6",
+    "courses": [
+      {
+        "id": "UEF61",
+        "title": "Advanced Cryptography",
+        "description": "In-depth study of cryptographic algorithms and protocols.",
+        "coeff": 4
+      },
+      {
+        "id": "UEF61-MS",
+        "title": "Modeling and Simulation",
+        "description": "Techniques and tools for modeling and simulation.",
+        "coeff": 3
+      },
+      {
+        "id": "UEF62",
+        "title": "Cloud Computing",
+        "description": "Principles and practices of cloud computing.",
+        "coeff": 3
+      },
+      {
+        "id": "UEF62-AD",
+        "title": "Advanced Databases",
+        "description": "Advanced topics in database systems.",
+        "coeff": 3
+      },
+      {
+        "id": "UEM6-MD",
+        "title": "Mobile Development",
+        "description": "Development of mobile applications.",
+        "coeff": 2
+      },
+      {
+        "id": "UEM6-DSP",
+        "title": "Digital Signal Processing",
+        "description": "Fundamentals of digital signal processing.",
+        "coeff": 3
+      },
+      {
+        "id": "UED6-AI",
+        "title": "AI Notions and Principles",
+        "description": "Introduction to artificial intelligence concepts.",
+        "coeff": 1
+      },
+      {
+        "id": "UET6-SPD",
+        "title": "Startup and Professional Development",
+        "description": "Skills for startups and professional growth.",
+        "coeff": 1
+      }
+    ]
+  }
+]

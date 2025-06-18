@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S8",
+    "courses": [
+      {
+        "id": "UEF1-SD",
+        "title": "Sécurité des données",
+        "description": "Data security.",
+        "coeff": 3
+      },
+      {
+        "id": "UEF1-DL",
+        "title": "Deep learning",
+        "description": "Deep learning.",
+        "coeff": 4
+      },
+      {
+        "id": "UEF2-TALN",
+        "title": "Traitement Automatique du Langage Naturel",
+        "description": "Natural language processing.",
+        "coeff": 3
+      },
+      {
+        "id": "UEF2-TDM",
+        "title": "Traitement de données massives",
+        "description": "Big data processing.",
+        "coeff": 3
+      },
+      {
+        "id": "UEM1-TCIA",
+        "title": "Technologies de Calcul Distribué et Intelligence Artificielle",
+        "description": "Distributed computing technologies and AI.",
+        "coeff": 2
+      },
+      {
+        "id": "UEM1-ATI",
+        "title": "Analyse et Traitement d’image",
+        "description": "Image analysis and processing.",
+        "coeff": 2
+      },
+      {
+        "id": "UET1-PP",
+        "title": "Projet pluridisciplinaire",
+        "description": "Multidisciplinary project.",
+        "coeff": 3
+      }
+    ]
+  },
+  {
+    "id": "S9",
+    "courses": [
+      {
+        "id": "UEF1-VD",
+        "title": "Visualisation de données",
+        "description": "Data visualization.",
+        "coeff": 3
+      },
+      {
+        "id": "UEF1-VP",
+        "title": "Vision par ordinateur",
+        "description": "Computer vision.",
+        "coeff": 3
+      },
+      {
+        "id": "UEF2-GAI",
+        "title": "Generative AI",
+        "description": "Generative artificial intelligence.",
+        "coeff": 3
+      },
+      {
+        "id": "UEF2-MBI",
+        "title": "Méthodes bio-inspirées",
+        "description": "Bio-inspired methods.",
+        "coeff": 3
+      },
+      {
+        "id": "UED1-ARCH",
+        "title": "Architectures et technologies blockchain",
+        "description": "Blockchain architectures and technologies.",
+        "coeff": 2
+      },
+      {
+        "id": "UED1-RI",
+        "title": "Recherche d’information",
+        "description": "Information retrieval.",
+        "coeff": 2
+      },
+      {
+        "id": "UET1-SW",
+        "title": "Séminaire & workshops",
+        "description": "Seminars and workshops.",
+        "coeff": 2
+      }
+    ]
+  }
+]

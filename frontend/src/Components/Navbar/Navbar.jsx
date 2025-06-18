@@ -1,9 +1,12 @@
 import "./Navbar.css";
 import githublogo from "../../assets/github.svg";
 import Logo from "../../assets/vertex.svg";
+import { useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navbar() {
-
+const location = useLocation();
+const pathcheck =(path)=> location.pathname === path;
 return (
     <>
     <nav>
@@ -12,13 +15,13 @@ return (
             <img src={Logo} alt="" id="mainlogo" />
 
             <ul className="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Study Resources</a></li>
+                <li className={["/home","/"].includes(location.pathname)? "active":""}><Link to="/home">Home</Link></li>
+                <li className={pathcheck("/study")? "active":""}><Link to="/study">Study Resources</Link></li>
             </ul>
 
             <div className="nav-buttons">
                 <div id="buttoncon">
-                    <button id="contribute-nav">Contribute</button>
+                        <button id="contribute-nav">Contribute</button>
                 </div>
                 <a href="#" id="githubnav"> <img src={githublogo} alt="logo github"  /></a>
             </div>

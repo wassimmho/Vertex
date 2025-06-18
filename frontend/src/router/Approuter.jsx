@@ -1,13 +1,13 @@
 import { Routes, Route } from 'react-router-dom';
-import Hero from '../Components/Hero/Hero.jsx'
 import Navbar from '../Components/Navbar/Navbar.jsx'
 import Study from '../Pages/Study/Study.jsx'
+import Home from '../Pages/Home/Home.jsx';
 
 const AppRouter = () => (
     <Routes>
-      <Route path="/" element={<Hero />} />
-      <Route path="/navbar" element={<Navbar />} />
+      <Route path="/" element={< Home/>} />
       <Route path="/study" element={<Study />} />
+      <Route path="/home" element={<Home />} />
 
     </Routes>
   );

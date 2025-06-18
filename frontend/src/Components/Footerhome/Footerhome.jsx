@@ -6,7 +6,7 @@ import linkedinIcon from '../../assets/linkdin.svg'; // Path to your linkedin.sv
 const Footerhome = () => {
   return (
     <footer className="footer-home">
-      <div className="footer-text">
+      <div className="footer-text-home">
       Crafted for students by the Vertex Team ⭐
       </div>
       <div className="social-icons">

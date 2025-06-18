@@ -5,16 +5,16 @@ import linkedinIcon from '../../assets/linkedinWhite.svg'; // Path to your linke
 
 const Footerhome = () => {
   return (
-    <footer className="footer-home">
-      <div className="footer-text">
+    <footer className="footer-doc">
+      <div className="footer-text-doc">
       Crafted for students by the Vertex Team ⭐
       </div>
-      <div className="social-icons">
+      <div className="social-icons-doc">
         <a href="https://github.com/wassimmho" target="_blank" rel="noopener noreferrer">
-          <img src={githubIcon} alt="GitHub" className="github-icon" />
+          <img src={githubIcon} alt="GitHub" className="github-icon-doc" />
         </a>
         <a href="https://www.linkedin.com/in/wassim-mouhouche-773559318/" target="_blank" rel="noopener noreferrer">
-          <img src={linkedinIcon} alt="LinkedIn" className="linkedin-icon" />
+          <img src={linkedinIcon} alt="LinkedIn" className="linkedin-icon-doc" />
         </a>
       </div>
     </footer>

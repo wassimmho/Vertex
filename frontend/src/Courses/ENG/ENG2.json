@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S3",
+    "courses": [
+      {
+        "id": "ADS3",
+        "title": "Algorithm and Data Structures 3",
+        "description": "Advanced topics in algorithms and data structures.",
+        "coeff": 4
+      },
+      {
+        "id": "OOP1",
+        "title": "Object Oriented Programming 1",
+        "description": "Introduction to object-oriented programming concepts.",
+        "coeff": 4
+      },
+      {
+        "id": "SI",
+        "title": "Introduction to Information Systems",
+        "description": "Fundamentals of information systems.",
+        "coeff": 3
+      },
+      {
+        "id": "ALG3",
+        "title": "Algebra 3",
+        "description": "Further studies in algebra.",
+        "coeff": 3
+      },
+      {
+        "id": "AN3",
+        "title": "Analyse 3",
+        "description": "Advanced mathematical analysis.",
+        "coeff": 3
+      },
+      {
+        "id": "PS2",
+        "title": "Probability and Statistics 2",
+        "description": "Intermediate probability and statistics.",
+        "coeff": 2
+      },
+      {
+        "id": "ENT",
+        "title": "Entreprenariat",
+        "description": "Introduction to entrepreneurship.",
+        "coeff": 1
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "courses": [
+      {
+        "id": "OOP2",
+        "title": "Object Oriented Programming 2",
+        "description": "Advanced object-oriented programming concepts.",
+        "coeff": 4
+      },
+      {
+        "id": "IOS2",
+        "title": "Introduction to Operating Systems 2",
+        "description": "Further study of operating systems.",
+        "coeff": 4
+      },
+      {
+        "id": "RES",
+        "title": "Introduction to Networks",
+        "description": "Fundamentals of computer networking.",
+        "coeff": 3
+      },
+      {
+        "id": "BD",
+        "title": "Introduction to Databases",
+        "description": "Basic concepts of database systems.",
+        "coeff": 3
+      },
+      {
+        "id": "TL",
+        "title": "Theory of Languages",
+        "description": "Introduction to formal languages and automata theory.",
+        "coeff": 3
+      },
+      {
+        "id": "TG",
+        "title": "Graph Theory",
+        "description": "Fundamentals of graph theory.",
+        "coeff": 2
+      },
+      {
+        "id": "DEO",
+        "title": "Deontology of Computer Science",
+        "description": "Ethics and deontology in computer science.",
+        "coeff": 1
+      }
+    ]
+  }
+]

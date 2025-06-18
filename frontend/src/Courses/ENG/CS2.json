@@ -1,0 +1,108 @@
+[
+  {
+    "id": "S7",
+    "courses": [
+      {
+        "id": "UEF1-AOS",
+        "title": "Advanced Operating Systems",
+        "description": "Advanced concepts in operating systems.",
+        "coeff": 3
+      },
+      {
+        "id": "UEF1-AN",
+        "title": "Advanced Networks",
+        "description": "Advanced networking principles and protocols.",
+        "coeff": 3
+      },
+      {
+        "id": "UEF2-CSS",
+        "title": "Computer Systems Security",
+        "description": "Security in computer systems.",
+        "coeff": 4
+      },
+      {
+        "id": "UEF2-IDS",
+        "title": "Information and Data Security",
+        "description": "Information and data security techniques.",
+        "coeff": 3
+      },
+      {
+        "id": "UEM7-PC",
+        "title": "Programming by Constraint",
+        "description": "Constraint-based programming methods.",
+        "coeff": 3
+      },
+      {
+        "id": "UEM7-ML",
+        "title": "Machine Learning, Deep Learning, and Security",
+        "description": "Machine learning, deep learning, and their applications in security.",
+        "coeff": 2
+      },
+      {
+        "id": "UED7-MA",
+        "title": "Malwares Analysis",
+        "description": "Analysis of malware and malicious software.",
+        "coeff": 2
+      },
+      {
+        "id": "UET7-CTC",
+        "title": "Critical Thinking and Creativity Skills",
+        "description": "Critical thinking and creativity for problem solving.",
+        "coeff": 1
+      }
+    ]
+  },
+  {
+    "id": "S8",
+    "courses": [
+      {
+        "id": "UEF8-OSS",
+        "title": "Operating Systems Security",
+        "description": "Security in operating systems.",
+        "coeff": 3
+      },
+      {
+        "id": "UEF8-CYB",
+        "title": "Cybersecurity",
+        "description": "Principles and practices of cybersecurity.",
+        "coeff": 3
+      },
+      {
+        "id": "UEF8-NS",
+        "title": "Network Security",
+        "description": "Security in computer networks.",
+        "coeff": 4
+      },
+      {
+        "id": "UEF8-WMNS",
+        "title": "Wireless and Mobile Network Security",
+        "description": "Security in wireless and mobile networks.",
+        "coeff": 3
+      },
+      {
+        "id": "UEM8-IAM",
+        "title": "Identity & Access Management",
+        "description": "Identity and access management systems.",
+        "coeff": 3
+      },
+      {
+        "id": "UEM8-SSD",
+        "title": "Secure Software Development",
+        "description": "Developing secure software applications.",
+        "coeff": 2
+      },
+      {
+        "id": "UED8-IE",
+        "title": "Innovation and Entrepreneurship",
+        "description": "Innovation and entrepreneurship in IT.",
+        "coeff": 1
+      },
+      {
+        "id": "UET8-MP",
+        "title": "Multidisciplinary Project",
+        "description": "Multidisciplinary project work.",
+        "coeff": 1
+      }
+    ]
+  }
+]

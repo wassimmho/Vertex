@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "courses": [
+      {
+        "id": "ADS1",
+        "title": "Algorithm and Data Structures 1",
+        "description": "Fundamental concepts of algorithms and data structures.",
+        "coeff": 5
+      },
+      {
+        "id": "SM",
+        "title": "Structure Machine",
+        "description": "Study of machine structure and computer architecture.",
+        "coeff": 4
+      },
+      {
+        "id": "IOS",
+        "title": "Introduction to Operating Systems",
+        "description": "Basic principles and concepts of operating systems.",
+        "coeff": 3
+      },
+      {
+        "id": "AN1",
+        "title": "Analyse 1",
+        "description": "Introduction to mathematical analysis.",
+        "coeff": 3
+      },
+      {
+        "id": "ALG1",
+        "title": "Algebra 1",
+        "description": "Fundamental concepts of algebra.",
+        "coeff": 3
+      },
+      {
+        "id": "EF",
+        "title": "Electronic Fundamentals",
+        "description": "Basic principles of electronics.",
+        "coeff": 1
+      },
+      {
+        "id": "TEEB",
+        "title": "Technique Expression Écrit et Bureautique",
+        "description": "Written expression techniques and office automation.",
+        "coeff": 1
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "courses": [
+      {
+        "id": "ADS2",
+        "title": "Algorithm and Data Structures 2",
+        "description": "Advanced concepts of algorithms and data structures.",
+        "coeff": 4
+      },
+      {
+        "id": "ARCH",
+        "title": "Architecture of Computers",
+        "description": "Study of computer architecture and organization.",
+        "coeff": 4
+      },
+      {
+        "id": "AN2",
+        "title": "Analyse 2",
+        "description": "Continuation of mathematical analysis.",
+        "coeff": 3
+      },
+      {
+        "id": "ALG2",
+        "title": "Algebra 2",
+        "description": "Advanced concepts of algebra.",
+        "coeff": 3
+      },
+      {
+        "id": "LOG",
+        "title": "Logique Mathématique",
+        "description": "Mathematical logic and reasoning.",
+        "coeff": 3
+      },
+      {
+        "id": "PS",
+        "title": "Probabilité and Statistics",
+        "description": "Introduction to probability and statistics.",
+        "coeff": 2
+      },
+      {
+        "id": "TEO",
+        "title": "Technique Expression Orale",
+        "description": "Oral expression techniques.",
+        "coeff": 1
+      }
+    ]
+  }
+]
