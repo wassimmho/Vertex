@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.footer-home {
+  background-color: rgb(255, 255, 255);
+  height: 50px; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  padding: 0 40px; /* Add some padding to the right */
+  position: relative;
+  font-family: 'Roboto mono';
+  font-size: 0.8rem;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.github-icon {
+  width: 26px;
+  height: 26px;
+  margin-right: 10px; /* Add some space between icons */
+}
+
+.linkedin-icon {
+  width: 35px;
+  height: 35px;
+}
+
+
+.social-icons{
+    margin-left: auto;
+    gap: 20px;
+}
+
+.footer-text{
+    font-weight: bold;
+}
