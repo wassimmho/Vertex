@@ -1,6 +1,6 @@
 [
   {
-    "specialities":"ENG1"
+    "specialities": "ENG1"
   },
   {
     "id": "S1",
@@ -12,50 +12,45 @@
         "coeff": 5,
         "resources": [
           {
-            "title": "Resource 1",
-            "link": "https://youtube.com/"
+            "title": "Courses",
+            "link": "https://drive.google.com/drive/u/2/folders/1LjdNmgjXmAP5Qa_ihJZW9Kkk_tZ86hLA"
           },
           {
-            "title": "Resource 2",
-            "link": "https://www.example.com/resource2"
+            "title": "DW",
+            "link": "https://drive.google.com/drive/folders/16N_bwVKl_7fTc-_9YlDTf9F1xLlr-wTX?usp=sharing"
           },
           {
-            "title": "Resource 3",
-            "link": "https://www.example.com/resource3"
+            "title": "PW",
+            "link": "https://drive.google.com/drive/u/2/folders/14oMLHzSVN0bv74hpWtBCDs35cHl5cNmF"
+          },
+          {
+            "title": "Test",
+            "link": "https://drive.google.com/drive/folders/1MerlzuxluIvN2RcCLZAUdWT9QACsfzNm?usp=sharing"
+          },
+          {
+            "title": "Exams",
+            "link": "https://drive.google.com/drive/folders/1Y0Wi4qIWPbmI6QZx5gkA7RDCa8ISr8Mg?usp=sharing"
           }
         ],
         "External Resources": [
           {
-            "Youtube-links":[
+            "Youtube-links": [
               {
-                "title": "Example Video 1",
-                "link": "https://www.youtube.com/watch?v=example1"
+                "title": "Hassan Bahi",
+                "link": "https://www.youtube.com/c/hassanbahi/featured"
               },
               {
-                "title": "Example Video 2",
-                "link": "https://www.youtube.com/watch?v=example2"
+                "title": "Bro Code",
+                "link": "https://www.youtube.com/@BroCodez"
               }
             ],
-            "Drive-links":[
+            "Drive-links": [
               {
-                "title": "Example File 1",
-                "link": "https://drive.google.com/file/d/example1"
-              },
-              {
-                "title": "Example File 2",
-                "link": "https://drive.google.com/file/d/example2"
+                "title": "Esi-ALSDS-Alger",
+                "link": "https://drive.google.com/drive/folders/18mRIslBoENB357YZ2CR72a5SGNPFIDdP"
               }
             ],
-            "Other-links":[
-              {
-                "title": "Other Resource 1",
-                "link": "https://www.example.com/other1"
-              },
-              {
-                "title": "Other Resource 2",
-                "link": "https://www.example.com/other2"
-              }
-            ]
+            "Other-links": []
           }
         ]
       },
@@ -63,37 +58,226 @@
         "id": "SM",
         "title": "Structure Machine",
         "description": "Study of machine structure and computer architecture.",
-        "coeff": 4
+        "coeff": 4,
+        "resources": [
+          {
+            "title": "Courses",
+            "link": "https://drive.google.com/drive/folders/13IThER6vVgwefNXSn5KjFtJVPl_dtw0c?usp=sharing"
+          },
+          {
+            "title": "DW",
+            "link": "https://drive.google.com/drive/folders/1M-bFqe6TWaoNT9WdITmtWmxyQsrZ60EQ?usp=sharing"
+          },
+          {
+            "title": "Test",
+            "link": "https://drive.google.com/drive/folders/1eXZcHICP4nCGgM75NXZ_ZLFFi4zSTLGB?usp=sharing"
+          },
+          {
+            "title": "Exams",
+            "link": "https://drive.google.com/drive/folders/1mA9XRcYc3rHFXaPfKOHq8PURAqs7sDFk?usp=sharing"
+          },
+          {
+            "title": "Retakes",
+            "link": "https://drive.google.com/drive/folders/14s92AoCvyhH1w28ON_7Xbc23E5YCyxkC?usp=sharing"
+          }
+        ],
+        "External Resources": [
+          {
+            "Youtube-links": [
+              
+            ],
+            "Drive-links": [],
+            "Other-links": []
+          }
+        ]
       },
       {
         "id": "IOS",
         "title": "Introduction to Operating Systems",
         "description": "Basic principles and concepts of operating systems.",
-        "coeff": 3
+        "coeff": 3,
+        "resources": [
+          {
+            "title": "Courses",
+            "link": "https://drive.google.com/drive/folders/1CHthoVLPJW_Jk9Ga_-FXADcGdrux-vYx?usp=sharing"
+          },
+          {
+            "title": "DW",
+            "link": "https://drive.google.com/drive/folders/1w3jmke4YSnh-gfTzllAyQXixW-eUQ7Yk?usp=sharing"
+          },
+          {
+            "title": "Test",
+            "link": "https://drive.google.com/drive/folders/17gUDdyPyOQgE1359ovaWMtPkiqBfW5OT?usp=sharing"
+          },
+          {
+            "title": "Exams",
+            "link": "https://drive.google.com/drive/folders/1gkg1KUvhTrW6RjnoDnae9c2ijHVXvwZ5?usp=sharing"
+          },
+          {
+            "title": "Retakes",
+            "link": "https://drive.google.com/drive/folders/1O2JMKjXFcddntDor2hPNc7LrtwAZMN2t?usp=sharing"
+          }
+        ],
+        "External Resources": [
+          {
+            "Youtube-links": [
+              
+            ],
+            "Drive-links": [],
+            "Other-links": []
+          }
+        ]
       },
       {
         "id": "AN1",
         "title": "Analyse 1",
         "description": "Introduction to mathematical analysis.",
-        "coeff": 3
+        "coeff": 3,
+        "resources": [
+          {
+            "title": "Courses",
+            "link": "https://drive.google.com/drive/folders/1IGQFku24BUORss7ZyXzM9S9uyqzq2QDg?usp=sharing"
+          },
+          {
+            "title": "DW",
+            "link": "https://drive.google.com/drive/folders/1-rIpep9f4ORmzAaUHjs84QmYvnlhFTjw?usp=sharing"
+          },
+          
+          {
+            "title": "Exams",
+            "link": "https://drive.google.com/drive/folders/1pmw9PHWDtVdeUz9ln9JZZJt577yTTd2_?usp=sharing"
+          }
+
+        ],
+        "External Resources": [
+          {
+            "Youtube-links": [
+              {
+                "title": "Mohssine El Miski",
+                "link": "https://www.youtube.com/channel/UCz1ImVdblTGarFJnQDgAWNA"
+              },
+              {
+                "title": "15 Min Math Lr",
+                "link": "https://www.youtube.com/@15MinMathLr"
+              },
+              {
+                "title": "Exo 7",
+                "link": "https://www.youtube.com/@Exo7Math"
+              }
+            ],
+            "Drive-links": [
+              {
+                "title": "Esi-AN1-Alger",
+                "link": "https://drive.google.com/drive/folders/1Wa9Vm1UpIGYEf4Q9umWn_1pJRae1Au2a"
+              }
+            ],
+            "Other-links": [
+              {
+                "title": "Exo 7 - WEBSITE",
+                "link": "http://exo7.emath.fr/deux.html"
+              }
+            ]
+          }
+        ]
       },
       {
         "id": "ALG1",
         "title": "Algebra 1",
         "description": "Fundamental concepts of algebra.",
-        "coeff": 3
+        "coeff": 3,
+        "resources": [
+          {
+            "title": "Courses",
+            "link": "https://drive.google.com/drive/folders/1ZNbsEhxJojtsNTMxr6uy4_A4PTjqPeQK?usp=sharing"
+          },
+          {
+            "title": "DW",
+            "link": "https://drive.google.com/drive/folders/1gjLQu9smJwiuIMVBc8rZROtqsBxSDYPN?usp=sharing"
+          },
+          {
+            "title": "Tests",
+            "link": "https://drive.google.com/drive/folders/1aSPfPSpe5LxuNWfGA9WRBXq1eVyYKGAq?usp=sharing"
+          },
+          {
+            "title": "Exams",
+            "link": "https://drive.google.com/drive/folders/1PCoEV-xnLVkPwRhgpf2rE7M8jZEvUvRa?usp=sharing"
+          },
+          {
+            "title": "Retakes",
+            "link": "https://drive.google.com/drive/folders/1OM55r4i_Bn6JIFrz8D9TqG5n0S-kvDLo?usp=sharing"
+          }
+        ],
+        "External Resources": [
+          {
+            "Youtube-links": [
+              {
+                "title": "Exo 7",
+                "link": "https://www.youtube.com/@Exo7Math"
+              }
+            ],
+            "Drive-links": [],
+            "Other-links": [
+              {
+                "title": "Exo 7 - WEBSITE",
+                "link": "http://exo7.emath.fr/deux.html"
+              }
+            ]
+          }
+        ]
       },
       {
         "id": "EF",
         "title": "Electronic Fundamentals",
         "description": "Basic principles of electronics.",
-        "coeff": 1
+        "coeff": 1,
+        "resources": [
+          {
+            "title": "Courses",
+            "link": "https://drive.google.com/drive/folders/1C6-dUnHhNSPAxXDaniEn0pZ5DbZ_55nr?usp=sharing"
+          },
+          {
+            "title": "DW",
+            "link": "https://drive.google.com/drive/folders/14dSVk8y4iwvUzQkbWC5Y62rZXp2xK5JG?usp=sharing"
+          },
+          {
+            "title": "Tests",
+            "link": "https://drive.google.com/drive/folders/1_bwBEAQv-dsUaMVlcmMBcaxiei1QKsZq?usp=sharing"
+          },
+          {
+            "title": "Exams",
+            "link": "https://drive.google.com/drive/folders/1bkqrkF1I-tP7ABWYGtcZ-6Naq44S_8G9?usp=sharing"
+          },
+          {
+            "title": "Retakes",
+            "link": "https://drive.google.com/drive/folders/18mfYsmCys6fUQTq7Lucofdi6t5GoZ67b?usp=sharing"
+          }
+        ],
+        "External Resources": [
+          {
+            "Youtube-links": [],
+            "Drive-links": [],
+            "Other-links": []
+          }
+        ]
       },
       {
         "id": "TEEB",
         "title": "Technique Expression Écrit et Bureautique",
         "description": "Written expression techniques and office automation.",
-        "coeff": 1
+        "coeff": 1,
+        "resources": [
+          {
+            "title": "Courses",
+            "link": "https://drive.google.com/drive/folders/1-hGFTPrBIYktNWhJIXFshhQetDpqXRYw?usp=sharing"
+          }
+        ],
+        "External Resources": [
+          {
+            "Youtube-links": [],
+            "Drive-links": [],
+            "Other-links": []
+          }
+        ]
       }
     ]
   },
@@ -104,43 +288,214 @@
         "id": "ADS2",
         "title": "Algorithm and Data Structures 2",
         "description": "Advanced concepts of algorithms and data structures.",
-        "coeff": 4
+        "coeff": 4,
+        "resources": [
+          {
+            "title": "Courses",
+            "link": "https://drive.google.com/drive/folders/1Ja1FNS0NZinblfN8sTYPRhGAE5XgJPFj?usp=sharing"
+          },
+          {
+            "title": "DW",
+            "link": "https://drive.google.com/drive/folders/1B4GwbRmngSoGqxc62bD_GrIYknJ5dds1?usp=sharing"
+          },
+          {
+            "title": "Tests",
+            "link": "https://drive.google.com/drive/folders/1xLAmqLropBVdQ7AbyoREahdBgPA41v3h?usp=sharing"
+          },
+          {
+            "title": "Exams",
+            "link": "https://drive.google.com/drive/folders/1ORzjT2wifWpVNooR7Dj_gARyn7TP8ncp?usp=sharing"
+          },
+          {
+            "title": "PW",
+            "link": "https://drive.google.com/drive/folders/1eif4ZsN0AkuQLX2qch6-3CIlKcVj60vX?usp=sharing"
+          }
+        ],
+        "External Resources": [
+          {
+            "Youtube-links": [],
+            "Drive-links": [],
+            "Other-links": []
+          }
+        ]
       },
       {
         "id": "ARCH",
         "title": "Architecture of Computers",
         "description": "Study of computer architecture and organization.",
-        "coeff": 4
+        "coeff": 4,
+        "resources": [
+          {
+            "title": "Courses",
+            "link": "https://drive.google.com/drive/folders/18wm9dos5lBs1vzon4mNs4kTCuv4PDA82?usp=sharing"
+          },
+          {
+            "title": "DW",
+            "link": "https://drive.google.com/drive/folders/1JzF42jqoqav4ETuvPEtwF8YBAzLfNReZ?usp=sharing"
+          },
+          {
+            "title": "Tests",
+            "link": "https://drive.google.com/drive/folders/1gyaW7YTlbn5XQ-UoUfbZVb8XKHmQpF7K?usp=sharing"
+          },
+          {
+            "title": "Exams",
+            "link": "https://drive.google.com/drive/folders/1YuYANs2Eh7x678yX4KvXmW9bD4T3uC-7?usp=sharing"
+          }
+        ],
+        "External Resources": [
+          {
+            "Youtube-links": [],
+            "Drive-links": [],
+            "Other-links": []
+          }
+        ]
       },
       {
         "id": "AN2",
         "title": "Analyse 2",
         "description": "Continuation of mathematical analysis.",
-        "coeff": 3
+        "coeff": 3,
+        "resources": [
+           {
+            "title": "Courses",
+            "link": "https://drive.google.com/drive/folders/1MHUvP1FhH6gviZF0ARCaM6he6lKaCdho?usp=sharing"
+          },
+          {
+            "title": "DW",
+            "link": "https://drive.google.com/drive/folders/1fwRlYE_rQmgoTz2IMNc3gX41sFxvUvwr?usp=sharing"
+          },
+          {
+            "title": "Tests",
+            "link": "https://drive.google.com/drive/folders/1mymiImknMHczaPyMfGAOuMhpCsPCF3ZE?usp=sharing"
+          },
+          {
+            "title": "Exams",
+            "link": "https://drive.google.com/drive/folders/1W1Pd01BTSnqnU9XzT9On_XHFBKNgsOec?usp=sharing"
+          }
+        ],
+        "External Resources": [
+          {
+            "Youtube-links": [],
+            "Drive-links": [],
+            "Other-links": []
+          }
+        ]
       },
       {
         "id": "ALG2",
         "title": "Algebra 2",
         "description": "Advanced concepts of algebra.",
-        "coeff": 3
+        "coeff": 3,
+        "resources": [
+          {
+            "title": "Courses",
+            "link": "https://drive.google.com/drive/folders/12mP1j8vK5bJKQdWMqaubf9VUiFJCBveY?usp=sharing"
+          },
+          {
+            "title": "DW",
+            "link": "https://drive.google.com/drive/folders/1JfGA8J0LExvIEIfJ5k_ED3GoAnZhcMe7?usp=sharing"
+          },
+          {
+            "title": "Tests",
+            "link": "https://drive.google.com/drive/folders/1EIV3Jz0BJbauoD_heshbA1i6Ai-TIW2L?usp=sharing"
+          },
+          {
+            "title": "Exams",
+            "link": "https://drive.google.com/drive/folders/12CmkiPEZRjItZjL1ZoOpwdxBTKTMiucr?usp=sharing"
+          }
+        ],
+        "External Resources": [
+          {
+            "Youtube-links": [],
+            "Drive-links": [],
+            "Other-links": []
+          }
+        ]
       },
       {
         "id": "LOG",
         "title": "Logique Mathématique",
         "description": "Mathematical logic and reasoning.",
-        "coeff": 3
+        "coeff": 3,
+        "resources": [
+          {
+            "title": "Courses",
+            "link": "https://drive.google.com/drive/folders/1rcM3EqcUe4McpB_SaHhVAu60RXVw2S2F?usp=sharing"
+          },
+          {
+            "title": "DW",
+            "link": "https://drive.google.com/drive/folders/1KP_MOCYw62D_GTbaQhX0nKri3U6pw1-Z?usp=sharing"
+          },
+          {
+            "title": "Tests",
+            "link": "https://drive.google.com/drive/folders/1HzAndqpTwnD4uxrQhf3MoKc8dEiCO3Wz?usp=sharing"
+          },
+          {
+            "title": "Exams",
+            "link": "https://drive.google.com/drive/folders/1lmgE4EO_F-P6kOgn646zRkekY3fcYQVp?usp=sharing"
+          }
+        ],
+        "External Resources": [
+          {
+            "Youtube-links": [],
+            "Drive-links": [],
+            "Other-links": []
+          }
+        ]
       },
       {
         "id": "PS",
         "title": "Probabilité and Statistics",
         "description": "Introduction to probability and statistics.",
-        "coeff": 2
+        "coeff": 2,
+        "resources": [
+          {
+            "title": "Courses",
+            "link": "https://drive.google.com/drive/folders/1nT26aU4K950Oclyd7y5bjrumvVCBgPYm?usp=sharing"
+          },
+          {
+            "title": "DW",
+            "link": "https://drive.google.com/drive/folders/1SCv0shB1qRI8MeGn4Qc2wqm3kOXeS2DB?usp=sharing"
+          },
+          {
+            "title": "Tests",
+            "link": "https://drive.google.com/drive/folders/13ZY2y7AZFRFHoli7YD1lwHUhv0RAJrXg?usp=sharing"
+          },
+          {
+            "title": "Exams",
+            "link": "https://drive.google.com/drive/folders/1X-VuVqqhyZAIwQkkhePZQ2MK8AbyVeST?usp=sharing"
+          }
+        ],
+        "External Resources": [
+          {
+            "Youtube-links": [],
+            "Drive-links": [],
+            "Other-links": []
+          }
+        ]
       },
       {
         "id": "TEO",
         "title": "Technique Expression Orale",
         "description": "Oral expression techniques.",
-        "coeff": 1
+        "coeff": 1,
+        "resources": [
+          {
+            "title": "Courses",
+            "link": "https://drive.google.com/drive/folders/1ychNWyJSoefbsiZpxVgjK4C3u95u7GyS?usp=sharing"
+          },
+          {
+            "title": "Exams",
+            "link": "https://drive.google.com/drive/folders/1DEgmvOn1SuOuKiseKA4XYup5ceFAj5aO?usp=sharing"
+          }
+        ],
+        "External Resources": [
+          {
+            "Youtube-links": [],
+            "Drive-links": [],
+            "Other-links": []
+          }
+        ]
       }
     ]
   }
