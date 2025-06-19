@@ -45,7 +45,7 @@ const arrowIcon = (open) => (
   />
 );
 
-const Filtre = () => {
+const Filtre = ({ onSpecialitySelect, onModuleSelect, selectedSpeciality, selectedModule }) => {
   const [openSection, setOpenSection] = useState(null); // 'LMD' or 'Engineering'
   const [openYear, setOpenYear] = useState({}); // { LMD: null, Engineering: null }
 
@@ -55,6 +55,26 @@ const Filtre = () => {
 
   const handleYearClick = (section, year) => {
     setOpenYear((prev) => ({ ...prev, [section]: prev[section] === year ? null : year }));
+  };
+
+  const handleSpecialityClick = (speciality) => {
+    console.log('Speciality clicked:', speciality, 'Current selectedSpeciality:', selectedSpeciality);
+    if (onSpecialitySelect) {
+      onSpecialitySelect(selectedSpeciality === speciality ? null : speciality);
+    }
+  };
+
+  const handleModuleClick = (module) => {
+    console.log('Module clicked:', module);
+    if (onModuleSelect) {
+      onModuleSelect(module);
+    }
+  };
+
+  const getModulesForSpeciality = (speciality) => {
+    const allData = [ENG1, ENG2, AI1, CS1, SE1, AI2, CS2, SE2];
+    const foundData = allData.find((data) => data[0].specialities === speciality);
+    return foundData ? foundData.slice(1) : [];
   };
 
   return (
@@ -74,7 +94,27 @@ const Filtre = () => {
                 {openYear['LMD'] === year && (
                   <ul className="filtre-specialities">
                     {specialities.map((spec) => (
-                      <li key={spec}>{spec}</li>
+                      <li key={spec} onClick={() => handleSpecialityClick(spec)}>
+                        {spec}
+                        {selectedSpeciality === spec && (
+                          <ul className="filtre-modules">
+                            {getModulesForSpeciality(spec).map((semester) =>
+                              semester.courses.map((course) => (
+                                <li
+                                  key={course.id}
+                                  onClick={(e) => {
+                                    e.stopPropagation();
+                                    handleModuleClick(course);
+                                  }}
+                                  className={selectedModule && selectedModule.id === course.id ? 'selected-module' : ''}
+                                >
+                                  {course.title}
+                                </li>
+                              ))
+                            )}
+                          </ul>
+                        )}
+                      </li>
                     ))}
                   </ul>
                 )}
@@ -98,7 +138,27 @@ const Filtre = () => {
                 {openYear['Engineering'] === year && (
                   <ul className="filtre-specialities">
                     {specialities.map((spec) => (
-                      <li key={spec}>{spec}</li>
+                      <li key={spec} onClick={() => handleSpecialityClick(spec)}>
+                        {spec}
+                        {selectedSpeciality === spec && (
+                          <ul className="filtre-modules">
+                            {getModulesForSpeciality(spec).map((semester) =>
+                              semester.courses.map((course) => (
+                                <li
+                                  key={course.id}
+                                  onClick={(e) => {
+                                    e.stopPropagation();
+                                    handleModuleClick(course);
+                                  }}
+                                  className={selectedModule && selectedModule.id === course.id ? 'selected-module' : ''}
+                                >
+                                  {course.title}
+                                </li>
+                              ))
+                            )}
+                          </ul>
+                        )}
+                      </li>
                     ))}
                   </ul>
                 )}
