@@ -58,16 +58,12 @@ const module = () => {
                                 externalResources={selectedModule["External Resources"]}
                             />
                         </div>
-                        <Contribute />
                     </div>
                 ) : selectedSpeciality ? (
                     <p id="choose-module-text">Select a module to view its details.</p>
                 ) : (
                     <p id="choose-specialty-text">Please select a speciality to view its modules.</p>
                 )}
-            </div>
-            <div className="contributesection">
-                 
             </div>
         </div>
     );
