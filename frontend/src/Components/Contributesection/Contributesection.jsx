@@ -14,10 +14,16 @@ function Contributesection() {
                 </div>
                 
                 <div className="contribute-media">
-                    <button id="contribute-button"></button>
+                    <a
+                        id="contribute-button"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSdxNnJYfr7VHsAjexJq2yvWaoo30azdNey_j4KVwYos3IaeZw/viewform?usp=dialog"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        
+                    </a>
                     <img src={shape} alt="dashed shape" className="shape" id="topshape"/>
                     <img src={shape} alt="dashed shape" className="shape" id="bottomshape"/>
-
                 </div>
             </div>
         </>

@@ -15,7 +15,9 @@
     padding-left: 3vw;
 }
 .Resources{
-    padding-left: 2vw;
+    padding-left: 3vw;
+    font-family:'poppins', sans-serif;
+    font-weight: 400;
 }
 
 #choose-specialty-text{

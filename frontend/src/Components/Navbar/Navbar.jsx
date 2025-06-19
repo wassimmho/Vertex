@@ -21,9 +21,15 @@ return (
 
             <div className="nav-buttons">
                 <div id="buttoncon">
+                    <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSdxNnJYfr7VHsAjexJq2yvWaoo30azdNey_j4KVwYos3IaeZw/viewform?usp=dialog"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <button id="contribute-nav">Contribute</button>
+                    </a>
                 </div>
-                <a href="#" id="githubnav"> <img src={githublogo} alt="logo github"  /></a>
+                <a href="https://github.com/wassimmho" target="_blanc" id="githubnav"> <img src={githublogo} alt="logo github"  /></a>
             </div>
 
         </div>

@@ -119,12 +119,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px;
     border: 1px solid black;
     box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.282);
     background-color: #ffffff;
-    width: 17vw;
-    height: 10vh;
+    width: 50%;
+    height: 20%;
     position: absolute;
     z-index: 2;
 }
@@ -136,22 +135,22 @@
     gap: 10px;
 }
 #box-hero-1{
-    top: 13%;
-    left: 12%;
+    top: 10%;
+    left: 10%;
 }
 
 #box-hero-2{
-    top: 37%;
-    right: 12%;
+    top: 40%;
+    right: 15%;
 }
 
 #box-hero-3{
-    top: 63%;
-    left: 12%;
+    top: 70%;
+    left: 10%;
 }
 
 .linkedin-icon-hero{
-    height: 30px;
+    height: 40px;
     width: auto;
 }
 
@@ -171,10 +170,22 @@
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
     position: relative;
-    margin: 20px 0;
     z-index: 0;
     border-radius: 3px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
 }
+
+#form-button-hero:hover {
+    background-color: #ffffff;
+    color: #389CFF;
+    border: 1px solid #389CFF;
+}
+
+
 .classes-hero-subtitle {
     position: absolute;
 }
