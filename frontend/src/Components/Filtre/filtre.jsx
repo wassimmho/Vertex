@@ -1,6 +1,17 @@
 import React, { useState } from 'react';
 import './filter.css';
 import arrow from '../../assets/arrow.svg';
+import path from 'path';
+import ENG1 from '../../Courses/ENG/1PC/ENG1.json'
+import ENG2 from '../../Courses/ENG/2PC/ENG2.json';
+import AI1 from '../../Courses/ENG/3PC/AI1.json';
+import CS1 from '../../Courses/ENG/3PC/CS1.json';
+import SE1 from '../../Courses/ENG/3PC/SE1.json';
+import AI2 from '../../Courses/ENG/4PC/AI2.json';
+import CS2 from '../../Courses/ENG/4PC/CS2.json';
+import SE2 from '../../Courses/ENG/4PC/SE2.json'; 
+
+
 
 const lmdYears = [
   { year: 'L1', specialities: ['Spec A', 'Spec B'] },
@@ -11,11 +22,11 @@ const lmdYears = [
 ];
 
 const engYears = [
-  { year: '1PC', specialities: ['Spec K', 'Spec L'] },
-  { year: '2PC', specialities: ['Spec M', 'Spec N'] },
-  { year: '3SC', specialities: ['Spec O', 'Spec P'] },
-  { year: '4SC', specialities: ['Spec Q', 'Spec R'] },
-  { year: '5SC', specialities: ['Spec S', 'Spec T'] },
+  { year: '1PC', specialities: [ENG1[0].specialities] },
+  { year: '2PC', specialities: [ENG2[0].specialities] },
+  { year: '3SC', specialities: [AI1[0].specialities, CS1[0].specialities, SE1[0].specialities] },
+  { year: '4SC', specialities: [AI2[0].specialities, CS2[0].specialities, SE2[0].specialities] },
+  { year: '5SC', specialities: [] },
 ];
 
 const arrowIcon = (open) => (
