@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footerdoc.css';
-import githubIcon from '../../assets/githubWhite.svg'; // Path to your github.svg
+import githubIcon from '../../assets/GithubWhite.svg'; // Path to your github.svg
 import linkedinIcon from '../../assets/linkedinWhite.svg'; // Path to your linkedin.svg
 
 const Footerhome = () => {
