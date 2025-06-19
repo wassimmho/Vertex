@@ -1,15 +1,62 @@
 [
-    {
-    "specialities":"AI1"
+  {
+    "specialities": "AI1"
   },
   {
-    "id": "S7",
+    "id": "S5",
     "courses": [
       {
-        "id": "UEF1-BD",
-        "title": "Concepts avancés de BD",
-        "description": "Advanced database concepts.",
+        "id": "UEF1-ARCH",
+        "title": "Architecture et administration des BDD",
+        "description": "Architecture and administration of databases.",
+        "coeff": 4
+      },
+      {
+        "id": "UEF1-COMP",
+        "title": "Compilation",
+        "description": "Compiler construction.",
+        "coeff": 4
+      },
+      {
+        "id": "UEF2-PLD",
+        "title": "Programmation Linéaire et Dynamique",
+        "description": "Linear and dynamic programming.",
+        "coeff": 4
+      },
+      {
+        "id": "UEF2-GL",
+        "title": "Génie logiciel",
+        "description": "Software engineering.",
+        "coeff": 4
+      },
+      {
+        "id": "UED1-IA",
+        "title": "Fondements de l’IA",
+        "description": "Foundations of artificial intelligence.",
+        "coeff": 2
+      },
+      {
+        "id": "UET1-OPT",
+        "title": "Module optionnel (ex: Interface Homme Machine, Conception de jeux vidéo)",
+        "description": "Optional module (e.g., Human-Computer Interaction, Game Design).",
+        "coeff": 2
+      }
+    ]
+  },
+  {
+    "id": "S6",
+    "courses": [
+      {
+        "id": "UEF1-BDR",
+        "title": "Gestion des bases de données réparties",
+        "description": "Distributed database management.",
         "coeff": 3
+      },
+      {
+        "id": "UEF1-SE",
+        "title": "Système d’Exploitation : Synchronisation et Communication",
+        "description": "Operating Systems: Synchronization and Communication.",
+        "coeff": 4
       },
       {
         "id": "UEF1-GP",
@@ -18,86 +65,27 @@
         "coeff": 3
       },
       {
-        "id": "UEF1-WA",
-        "title": "Web avancé et micro-services",
-        "description": "Advanced web and microservices.",
-        "coeff": 3
+        "id": "UEF2-PWEB",
+        "title": "Programmation WEB",
+        "description": "Web programming.",
+        "coeff": 4
       },
       {
-        "id": "UEF2-DM",
-        "title": "Data-Mining",
-        "description": "Data mining techniques.",
-        "coeff": 3
+        "id": "UEF2-AN2",
+        "title": "Analyse numérique 2",
+        "description": "Numerical analysis 2.",
+        "coeff": 4
       },
       {
-        "id": "UEF2-COMP2",
-        "title": "Compilation 2",
-        "description": "Advanced compiler construction.",
-        "coeff": 3
-      },
-      {
-        "id": "UEM1-MM",
-        "title": "Méthodes de management agiles",
-        "description": "Agile management methods.",
+        "id": "UED1-SEC",
+        "title": "Introduction à la sécurité informatique",
+        "description": "Introduction to computer security.",
         "coeff": 2
       },
       {
-        "id": "UEM1-RP",
-        "title": "Réseaux et protocoles",
-        "description": "Networks and protocols.",
-        "coeff": 2
-      },
-      {
-        "id": "UED1-IM",
-        "title": "IM : Conception et évaluation des interfaces",
-        "description": "Design and evaluation of interfaces.",
-        "coeff": 1
-      }
-    ]
-  },
-  {
-    "id": "S8",
-    "courses": [
-      {
-        "id": "UEF1-ARCH",
-        "title": "Architecture et gestion des Big-Data et des bases de données NoSQL",
-        "description": "Architecture and management of Big Data and NoSQL databases.",
-        "coeff": 3
-      },
-      {
-        "id": "UEF2-ARCHL",
-        "title": "Architectures Logicielles",
-        "description": "Software architectures.",
-        "coeff": 3
-      },
-      {
-        "id": "UEF2-TPP",
-        "title": "Modèles et Gestion des Projets Logiciels",
-        "description": "Models and management of software projects.",
-        "coeff": 2
-      },
-      {
-        "id": "UEF2-TLAQ",
-        "title": "Test Logiciel et Assurance qualité",
-        "description": "Software testing and quality assurance.",
-        "coeff": 2
-      },
-      {
-        "id": "UEM1-MEP",
-        "title": "Modification et Evaluation des Performances",
-        "description": "Performance modification and evaluation.",
-        "coeff": 2
-      },
-      {
-        "id": "UEM1-SE",
-        "title": "Software Engineering approfondie",
-        "description": "Advanced software engineering.",
-        "coeff": 2
-      },
-      {
-        "id": "UET1-PP",
-        "title": "Projet Pluridisciplinaire",
-        "description": "Multidisciplinary project.",
+        "id": "UET1-ETH",
+        "title": "Éthique de l’IA",
+        "description": "AI ethics.",
         "coeff": 2
       }
     ]
