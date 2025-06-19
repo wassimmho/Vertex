@@ -4,8 +4,24 @@
   height: 100%;
   font-family: 'Inter', Arial, sans-serif;
   box-sizing: border-box;
-  margin-left  : 50px;
   margin-top: 20px;
+  max-height: 900px; /* Adjust height as needed */
+  overflow-y: auto;
+  scrollbar-width: thin; /* For Firefox */
+  width: 25vw;
+}
+
+.filtre-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.filtre-container::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.filtre-container::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
 }
 
 .filtre-section {
@@ -65,6 +81,31 @@
   font-size: 1rem;
 }
 
-.filtre-specialities li {
-  margin-bottom: 2px;
+
+
+.filtre-modules{
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: #333;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: color 0.2s;
 }
+.filtre-specialities{
+  margin-left: 32px;
+  margin-top: 4px;
+  margin-bottom: 6px;
+  padding-left: 12px;
+  list-style: disc;
+  color: #444;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.filtre-specialities li {
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+.filtre-year {
+  transition: background-color 0.2s, color 0.2s;
+}
+

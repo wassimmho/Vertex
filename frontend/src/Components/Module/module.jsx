@@ -1,38 +1,54 @@
 import Navbar from "../../Components/Navbar/Navbar";
 import Footerdoc from "../../Components/Footerdoc/Footerdoc";
-import Filtre from "../../Components/Filtre/filtre";
-import Resources from "../../Components/Resources/Resources";
-import {Navigate} from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import Filtre from "../Filtre/filtre";
+import ENG1 from '../../Courses/ENG/1PC/ENG1.json';
+import ENG2 from '../../Courses/ENG/2PC/ENG2.json';
+import AI1 from '../../Courses/ENG/3PC/AI1.json';
+import CS1 from '../../Courses/ENG/3PC/CS1.json';
+import SE1 from '../../Courses/ENG/3PC/SE1.json';
+import AI2 from '../../Courses/ENG/4PC/AI2.json';
+import CS2 from '../../Courses/ENG/4PC/CS2.json';
+import SE2 from '../../Courses/ENG/4PC/SE2.json';
+import './Module.css';
 
-const module = () =>{
-    return(
+const module = () => {
+    const [selectedSpeciality, setSelectedSpeciality] = useState(null);
+    const [selectedModule, setSelectedModule] = useState(null);
+
+    const handleSpecialitySelect = (speciality) => {
+        setSelectedSpeciality(speciality);
+        setSelectedModule(null); // Reset module selection when speciality changes
+    };
+
+    const handleModuleSelect = (module) => {
+        setSelectedModule(module);
+    };
+
+    return (
         <div className="container-module-info">
-                <nav >
-                    <Filtre />
-                </nav>
-                    <div className="module-info"> 
-                        <h1 className="module-name">ASD1</h1>
-                        <p className="module-exp">
-                        This fundamental course explores systematic methods (algorithms) for solving problems and the different ways of 
-                            organizing and storing data (data structures). It is essential for developing efficient, fast,<br></br>and optimized programs, 
-                                and constitutes the cornerstone of all high-performance software design.
-                        </p>
-                        <div className="links">
-                            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">youtube</a>
-                            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">youtube 2</a>
-                            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">youtube 3</a>
-                            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">youtube 4</a>
-                            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">youtube 5</a>
-                            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">youtube 6</a>
-
-
-                        </div>
-                        <h1 className="module-name">External Resources</h1>
-                        <div className="resources">
-                            <Resources/>
-                        </div>
+            <nav>
+                <Filtre
+                    onSpecialitySelect={handleSpecialitySelect}
+                    onModuleSelect={handleModuleSelect}
+                    selectedSpeciality={selectedSpeciality}
+                    selectedModule={selectedModule}
+                />
+            </nav>
+            <div className="module-info">
+                {selectedModule ? (
+                    <div>
+                        <h1 className="module-name">{selectedModule.title}</h1>
+                        <p>{selectedModule.description}</p>
+                        <p>Coefficient: {selectedModule.coeff}</p>
                     </div>
-                </div>
+                ) : selectedSpeciality ? (
+                    <p>Select a module to view its details.</p>
+                ) : (
+                    <p>Please select a speciality to view its modules.</p>
+                )}
+            </div>
+        </div>
     );
 }
 export default module;
