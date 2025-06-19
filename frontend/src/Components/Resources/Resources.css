@@ -58,20 +58,20 @@
     font-family: 'Roboto Mono', sans-serif;
 }
 .Youtube-links a{
-    font-family: Poppins, "Helvetica Neue", Helvetica, sans-serif;
-    color:rgb(0, 0, 0);
-    text-decoration:none;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 .Drive-links a{
-    font-family: Poppins, "Helvetica Neue", Helvetica, sans-serif;
-    color:rgb(0, 0, 0);
-    text-decoration:none;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 .Document-links a{
-    font-family: Poppins, "Helvetica Neue", Helvetica, sans-serif;
-    color:rgb(0, 0, 0);
-    text-decoration:none;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 .Document-links a :hover {
