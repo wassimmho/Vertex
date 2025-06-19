@@ -3,6 +3,7 @@ import Footerdoc from "../../Components/Footerdoc/Footerdoc";
 import { useEffect, useState } from 'react';
 import Filtre from "../Filtre/filtre";
 import Resources from "../Resources/Resources";
+import Contribute from "../Contribute/Contribute";
 import './module.css';
 
 const module = () => {
@@ -59,6 +60,9 @@ const module = () => {
                                 resources={selectedModule.resources}
                                 externalResources={selectedModule["External Resources"]}
                             />
+                        </div>
+                        <div className="contribute-component">
+                            <Contribute />
                         </div>
                     </div>
                 ) : selectedSpeciality ? (

@@ -59,19 +59,23 @@
 }
 .Youtube-links a{
     font-family: Poppins, "Helvetica Neue", Helvetica, sans-serif;
-    color:rgb(0, 0, 255);
+    color:rgb(0, 0, 0);
     text-decoration:none;
 }
 
 .Drive-links a{
     font-family: Poppins, "Helvetica Neue", Helvetica, sans-serif;
-    color:rgb(0, 0, 255);
+    color:rgb(0, 0, 0);
     text-decoration:none;
 }
 .Document-links a{
     font-family: Poppins, "Helvetica Neue", Helvetica, sans-serif;
-    color:rgb(0, 0, 255);
+    color:rgb(0, 0, 0);
     text-decoration:none;
+}
+
+.Document-links a :hover {
+    color:#1a0dab;
 }
 .container {
     display: flex;
@@ -149,11 +153,11 @@
 }
 
 .links a {
-    color: #1a0dab;
-    text-decoration: underline;
+    color: #000000;
+    text-decoration: none;
     transition: color 0.2s;
 }
 
 .links a:hover {
-    color: #d32f2f;
+    color: #325efb;
 }

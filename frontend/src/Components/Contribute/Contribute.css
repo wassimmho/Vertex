@@ -1,0 +1,29 @@
+.contribute-container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 60vw;
+    border: 2px solid #b7b5b5;
+    background-color: rgb(235, 235, 235 ,.75);
+}
+.contribute-title{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 12px;
+    user-select: none;
+    font-family: 'Roboto mono', sans-serif;
+    padding-left: 10px;
+}
+.contribute-text{
+    font-weight: 200;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+}
+.contribute-highlight{
+    color:rgb(37, 161, 250);
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+}

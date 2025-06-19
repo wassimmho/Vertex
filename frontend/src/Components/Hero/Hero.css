@@ -121,27 +121,33 @@
     align-items: center;
     padding: 30px;
     border: 1px solid black;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.282);
     background-color: #ffffff;
-    width: 250px;
-    height: 70px;
+    width: 17vw;
+    height: 10vh;
     position: absolute;
     z-index: 2;
 }
-
+.classes-hero-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
 #box-hero-1{
-    top: 5%;
-    left: 2%;
+    top: 13%;
+    left: 12%;
 }
 
 #box-hero-2{
-    top: 35%;
-    right: 2%;
+    top: 37%;
+    right: 12%;
 }
 
 #box-hero-3{
-    top: 65%;
-    left: 2%;
+    top: 63%;
+    left: 12%;
 }
 
 .linkedin-icon-hero{
@@ -153,6 +159,7 @@
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 400;
 }
+
 
 #form-button-hero{
     background-color: #389CFF;
@@ -168,3 +175,7 @@
     z-index: 0;
     border-radius: 3px;
 }
+.classes-hero-subtitle {
+    position: absolute;
+}
+
