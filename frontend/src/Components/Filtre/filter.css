@@ -1,7 +1,7 @@
 .filtre-container {
   padding: 24px 0 0 32px;
   background: #fff;
-  height: 83vh;
+  height: 100%;
   font-family: 'Inter', Arial, sans-serif;
   box-sizing: border-box;
   margin-top: 20px;
@@ -36,6 +36,7 @@
   margin-bottom: 12px;
   cursor: pointer;
   user-select: none;
+  font-family: 'Poppins', sans-serif;
 }
 
 .filtre-title {
@@ -64,6 +65,7 @@
   user-select: none;
   transition: color 0.2s;
   padding-top:7px ;
+  font-family: 'Poppins', sans-serif;
 }
 
 .filtre-year span {
@@ -79,6 +81,8 @@
   list-style: disc;
   color: #444;
   font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+
 }
 
 
@@ -90,6 +94,7 @@
   margin-bottom: 8px;
   cursor: pointer;
   transition: color 0.2s;
+  list-style: none;
 }
 .filtre-specialities{
   margin-left: 32px;
@@ -109,3 +114,16 @@
   transition: background-color 0.2s, color 0.2s;
 }
 
+.filtre-modules li{
+  cursor: pointer;
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.filtre-modules li:hover {
+  color: #007bff;
+  text-decoration: underline;
+  font-weight: 600;
+}

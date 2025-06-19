@@ -1,6 +1,53 @@
 [
-    {
-    "specialities":"AI2"
+  {
+    "specialities": "AI2"
+  },
+  {
+    "id": "S7",
+    "courses": [
+      {
+        "id": "UEF1-RCR",
+        "title": "Représentation des connaissances et raisonnement",
+        "description": "Knowledge representation and reasoning.",
+        "coeff": 4
+      },
+      {
+        "id": "UEF1-CHP",
+        "title": "Calcul haute performance",
+        "description": "High performance computing.",
+        "coeff": 3
+      },
+      {
+        "id": "UEF2-ML",
+        "title": "Machine Learning",
+        "description": "Machine learning.",
+        "coeff": 4
+      },
+      {
+        "id": "UEF2-MS",
+        "title": "Modélisation et simulation",
+        "description": "Modeling and simulation.",
+        "coeff": 3
+      },
+      {
+        "id": "UEM1-BI",
+        "title": "Business Intelligence",
+        "description": "Business intelligence.",
+        "coeff": 2
+      },
+      {
+        "id": "UEM1-OR",
+        "title": "Recherche opérationnelle",
+        "description": "Operational research.",
+        "coeff": 2
+      },
+      {
+        "id": "UET1-TR",
+        "title": "Techniques de rédaction",
+        "description": "Writing techniques.",
+        "coeff": 2
+      }
+    ]
   },
   {
     "id": "S8",
@@ -30,14 +77,14 @@
         "coeff": 3
       },
       {
-        "id": "UEM1-TCIA",
+        "id": "UEM1-TCDIA",
         "title": "Technologies de Calcul Distribué et Intelligence Artificielle",
-        "description": "Distributed computing technologies and AI.",
+        "description": "Distributed computing and AI technologies.",
         "coeff": 2
       },
       {
         "id": "UEM1-ATI",
-        "title": "Analyse et Traitement d’image",
+        "title": "Analyse et traitement d’image",
         "description": "Image analysis and processing.",
         "coeff": 2
       },
@@ -45,53 +92,6 @@
         "id": "UET1-PP",
         "title": "Projet pluridisciplinaire",
         "description": "Multidisciplinary project.",
-        "coeff": 3
-      }
-    ]
-  },
-  {
-    "id": "S9",
-    "courses": [
-      {
-        "id": "UEF1-VD",
-        "title": "Visualisation de données",
-        "description": "Data visualization.",
-        "coeff": 3
-      },
-      {
-        "id": "UEF1-VP",
-        "title": "Vision par ordinateur",
-        "description": "Computer vision.",
-        "coeff": 3
-      },
-      {
-        "id": "UEF2-GAI",
-        "title": "Generative AI",
-        "description": "Generative artificial intelligence.",
-        "coeff": 3
-      },
-      {
-        "id": "UEF2-MBI",
-        "title": "Méthodes bio-inspirées",
-        "description": "Bio-inspired methods.",
-        "coeff": 3
-      },
-      {
-        "id": "UED1-ARCH",
-        "title": "Architectures et technologies blockchain",
-        "description": "Blockchain architectures and technologies.",
-        "coeff": 2
-      },
-      {
-        "id": "UED1-RI",
-        "title": "Recherche d’information",
-        "description": "Information retrieval.",
-        "coeff": 2
-      },
-      {
-        "id": "UET1-SW",
-        "title": "Séminaire & workshops",
-        "description": "Seminars and workshops.",
         "coeff": 2
       }
     ]

@@ -63,9 +63,9 @@ const module = () => {
                         <Contribute />
                     </div>
                 ) : selectedSpeciality ? (
-                    <p>Select a module to view its details.</p>
+                    <p id="choose-module-text">Select a module to view its details.</p>
                 ) : (
-                    <p>Please select a speciality to view its modules.</p>
+                    <p id="choose-specialty-text">Please select a speciality to view its modules.</p>
                 )}
             </div>
             <div className="contributesection">
