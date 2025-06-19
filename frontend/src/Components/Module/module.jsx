@@ -3,8 +3,6 @@ import Footerdoc from "../../Components/Footerdoc/Footerdoc";
 import { useEffect, useState } from 'react';
 import Filtre from "../Filtre/filtre";
 import Resources from "../Resources/Resources";
-import Contribut from "../Contributesection/Contributesection";
-import Contribute from "../Contribute/Contribute";
 import './module.css';
 
 const module = () => {
