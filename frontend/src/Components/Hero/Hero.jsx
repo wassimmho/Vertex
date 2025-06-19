@@ -3,7 +3,7 @@ import './Hero.css';
 import Bulb from '../../assets/Vector.svg';
 import dots from '../../assets/DotGrid.svg';
 import linkedinIcon from '../../assets/linkdin.svg'; // Path to your linkedin.svg
-import Instagram from '../../assets/instagram.svg'; // Path to your instagram.svg
+import Instagram from '../../assets/Instagram.svg'; // Path to your instagram.svg
 
 const Hero = () => {
     return (
