@@ -39,13 +39,15 @@ const module = () => {
                 {selectedModule ? (
                     <div>
                         <h1 className="module-name">{selectedModule.title}</h1>
-                        <p>{selectedModule.description}</p>
-                        <p>Coefficient: {selectedModule.coeff}</p>
+                          <p className="module-description">{selectedModule.description}</p>
+                        <div className="module-coe-container"> 
+                          <p className="module-coe">Coefficient: {selectedModule.coeff}</p>
+                        </div>
                     </div>
                 ) : selectedSpeciality ? (
-                    <p>Select a module to view its details.</p>
+                    <p id="choose-module-text">Select a module to view its details.</p>
                 ) : (
-                    <p>Please select a speciality to view its modules.</p>
+                    <p id="choose-specialty-text">Please select a speciality to view its modules.</p>
                 )}
             </div>
         </div>

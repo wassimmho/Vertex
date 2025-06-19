@@ -2,3 +2,42 @@
     color:rgb(0, 0, 255);
     text-decoration:none;
 }
+
+#choose-specialty-text{
+    text-align: center;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+#choose-module-text{
+    text-align: center;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+
+.module-description{
+    font-family: 'Roboto Mono', sans-serif;
+    margin-left: 50px;
+}
+
+.module-coe{
+    font-family: 'Roboto Mono', sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+
+.module-coe-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 160px;
+    margin-left: 50px;
+    border: 1px solid rgb(50, 135, 245);
+    border-radius: 50px;
+    background-color: rgb(50, 135, 245);
+}
