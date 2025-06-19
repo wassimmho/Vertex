@@ -2,3 +2,22 @@
     color:rgb(0, 0, 255);
     text-decoration:none;
 }
+.container-module-info{
+    display: flex;
+    gap:20px;
+}
+.module-info{
+    width:120vmax;
+    height: 660px;
+}
+.module-name{
+    padding-left: 3vw;
+    font-family: 'Space Grotesk';
+}
+.module-exp{
+    font-family: 'Roboto Mono', sans-serif;
+    padding-left: 3vw;
+}
+.Resources{
+    padding-left: 2vw;
+}

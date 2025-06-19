@@ -9,7 +9,55 @@
         "id": "ADS1",
         "title": "Algorithm and Data Structures 1",
         "description": "Fundamental concepts of algorithms and data structures.",
-        "coeff": 5
+        "coeff": 5,
+        "resources": [
+          {
+            "title": "Resource 1",
+            "link": "https://youtube.com/"
+          },
+          {
+            "title": "Resource 2",
+            "link": "https://www.example.com/resource2"
+          },
+          {
+            "title": "Resource 3",
+            "link": "https://www.example.com/resource3"
+          }
+        ],
+        "External Resources": [
+          {
+            "Youtube-links":[
+              {
+                "title": "Example Video 1",
+                "link": "https://www.youtube.com/watch?v=example1"
+              },
+              {
+                "title": "Example Video 2",
+                "link": "https://www.youtube.com/watch?v=example2"
+              }
+            ],
+            "Drive-links":[
+              {
+                "title": "Example File 1",
+                "link": "https://drive.google.com/file/d/example1"
+              },
+              {
+                "title": "Example File 2",
+                "link": "https://drive.google.com/file/d/example2"
+              }
+            ],
+            "Other-links":[
+              {
+                "title": "Other Resource 1",
+                "link": "https://www.example.com/other1"
+              },
+              {
+                "title": "Other Resource 2",
+                "link": "https://www.example.com/other2"
+              }
+            ]
+          }
+        ]
       },
       {
         "id": "SM",

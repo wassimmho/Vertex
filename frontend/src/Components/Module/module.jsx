@@ -2,15 +2,10 @@ import Navbar from "../../Components/Navbar/Navbar";
 import Footerdoc from "../../Components/Footerdoc/Footerdoc";
 import { useEffect, useState } from 'react';
 import Filtre from "../Filtre/filtre";
-import ENG1 from '../../Courses/ENG/1PC/ENG1.json';
-import ENG2 from '../../Courses/ENG/2PC/ENG2.json';
-import AI1 from '../../Courses/ENG/3PC/AI1.json';
-import CS1 from '../../Courses/ENG/3PC/CS1.json';
-import SE1 from '../../Courses/ENG/3PC/SE1.json';
-import AI2 from '../../Courses/ENG/4PC/AI2.json';
-import CS2 from '../../Courses/ENG/4PC/CS2.json';
-import SE2 from '../../Courses/ENG/4PC/SE2.json';
-import './Module.css';
+import Resources from "../Resources/Resources";
+import Contribut from "../Contributesection/Contributesection";
+import Contribute from "../Contribute/Contribute";
+import './module.css';
 
 const module = () => {
     const [selectedSpeciality, setSelectedSpeciality] = useState(null);
@@ -39,14 +34,42 @@ const module = () => {
                 {selectedModule ? (
                     <div>
                         <h1 className="module-name">{selectedModule.title}</h1>
-                        <p>{selectedModule.description}</p>
-                        <p>Coefficient: {selectedModule.coeff}</p>
+                        <p className="module-exp"  >{selectedModule.description}</p>
+                        <p className="module-exp" >Coefficient: {selectedModule.coeff}</p>
+                        <div className="links">
+                            {selectedModule.resources && selectedModule.resources.length > 0 ? (
+                                selectedModule.resources.map((resource, index) => (
+                                    <li key={index}>
+                                        {resource.link ? (
+                                            <a href={resource.link} target="_blank" rel="noopener noreferrer">
+                                                {resource.title}
+                                            </a>
+                                        ) : (
+                                            <span>{resource.title} (No link available)</span>
+                                        )}
+                                    </li>
+                                ))
+                            ) : (
+                                <p>No resources available for this module.</p>
+                            )}
+                        </div>
+                        <div className="Resources">
+                            <h2>Resources</h2>
+                            <Resources
+                                resources={selectedModule.resources}
+                                externalResources={selectedModule["External Resources"]}
+                            />
+                        </div>
+                        <Contribute />
                     </div>
                 ) : selectedSpeciality ? (
                     <p>Select a module to view its details.</p>
                 ) : (
                     <p>Please select a speciality to view its modules.</p>
                 )}
+            </div>
+            <div className="contributesection">
+                 
             </div>
         </div>
     );

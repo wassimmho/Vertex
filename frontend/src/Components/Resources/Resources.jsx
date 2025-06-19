@@ -4,39 +4,51 @@ import Youtube from "../../assets/youtube.svg"
 import Drive from '../../assets/drive.svg'
 import Documnet from '../../assets/document.svg'
 
-
-const Resources = () =>{
-    return(
-        <div className='container'>
-
-            <div className='Boxs'>
-
-                <div className='box' id='box-youtube'>
-                    <div className='hover'></div>
-                    <div className='header-box'>
-                    <img src={Youtube} alt="Youtube" id="youtube-icon" className='icon' />
-                    <span className='text'>Youtube Channels</span>
-                    </div>
-                </div>
-                <div className='box' id='box-drive'>
-                    <div className='hover'></div>
-                    <div className='header-box'>
-                    <img src={Drive} alt="Drive" id="drive-icon" className='icon' />
-                    <span className='text'>External Practices</span>
-
-                    </div>
-                </div>
-                <div className='box' id='box-document'>
-                    <div className='hover'></div>
-                    <div className='header-box'>
-                    <img src={Documnet} alt="Documnet" id="documnet-icon" className='icon' />
-                    <span className='text'>Documents</span>
-
-
-                    </div>
-                </div>
+const Resources = ({ externalResources }) => {
+    // Helper to render a box for external links
+    const renderExternalBox = (icon, title, links) => (
+        <div className='box'>
+            <div className='hover'></div>
+            <div className='header-box'>
+                <img src={icon} alt={title} className='icon' />
+                <span className='text'>{title}</span>
             </div>
+            <div className='links'>
+                <ul>
+                    {links && links.length > 0 ? (
+                        links.map((linkObj, idx) => (
+                            <li key={idx}>
+                                <a href={linkObj.link} target='_blank' rel='noopener noreferrer'>
+                                    {linkObj.title}
+                                </a>
+                            </li>
+                        ))
+                    ) : (
+                        <li>No links available</li>
+                    )}
+                </ul>
+            </div>
+        </div>
+    );
 
+    // Gather all external links by type
+    let youtubeLinks = [], driveLinks = [], otherLinks = [];
+    if (externalResources && externalResources.length > 0) {
+        externalResources.forEach(ext => {
+            if (ext['Youtube-links']) youtubeLinks = youtubeLinks.concat(ext['Youtube-links']);
+            if (ext['Drive-links']) driveLinks = driveLinks.concat(ext['Drive-links']);
+            if (ext['Other-links']) otherLinks = otherLinks.concat(ext['Other-links']);
+        });
+    }
+
+    return (
+        <div className='container'>
+            <div className='Boxs'>
+                {/* Render only external resource boxes */}
+                {youtubeLinks.length > 0 && renderExternalBox(Youtube, 'YouTube Links', youtubeLinks)}
+                {driveLinks.length > 0 && renderExternalBox(Drive, 'Drive Links', driveLinks)}
+                {otherLinks.length > 0 && renderExternalBox(Documnet, 'Other Links', otherLinks)}
+            </div>
         </div>
     );
 }
