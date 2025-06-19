@@ -105,3 +105,70 @@
     right: -110px;
     bottom: -150px;
 }
+
+
+@media (max-width: 900px){
+    .contribute-container{
+        height: auto;
+    }
+
+    #contribute-title{
+        font-size: 2.3rem;
+    }
+
+    #contribute-paragraph{
+        font-size: 1rem;
+        width: 80%;
+        margin-left: 0;
+    }
+
+    #contribute-button{
+        width: 200px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 600px){
+    .contribute-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+    }
+
+    #contribute-title{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    #contribute-paragraph{
+        font-size: 0.9rem;
+        width: 90%;
+        align-self: center;
+        text-align: center;
+    }
+
+    #contribute-button{
+        width: 150px;
+        height: 40px;
+                align-self: center;
+
+    }
+
+    #contribute-button::after {
+        font-size: 1rem;
+        bottom: 5px;
+        left: 5px;
+    }
+
+    #topshape{
+        display: none;
+    }
+
+    #bottomshape{
+        top: -150px;
+        right: -230px;
+        rotate: 90deg;
+        scale: 0.5;
+    }
+}

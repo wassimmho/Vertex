@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
 .hero-container {
+    width: 100%;
     height: 90vh;
     background-color: #E7EEF4;
     font-family: "Roboto mono", sans-serif;
@@ -190,3 +191,51 @@
     position: absolute;
 }
 
+
+@media (max-width: 900px) {
+    .hero-container {
+        grid-template-columns: 1fr;
+        height: auto;
+        width: 100%;
+        overflow-x: hidden;
+        padding: 40px;
+    }
+    .hero-section, .hero-media {
+        grid-column: 1 / span 1;
+        padding: 0;
+    }
+    .hero-media {
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+    .classes-hero {
+        width: 90%;
+        height: auto;
+        position: static;
+        margin-bottom: 20px;
+    }
+    .hero-dots, .hero-bulb, #topdots, #bottomdots, .classes-hero {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    #hero-title {
+        font-size: 1.3rem;
+    }
+    #hero-paragraph {
+        font-size: 0.95rem;
+        width: 100%;
+    }
+    .hero-note {
+        font-size: 0.5rem;
+        width: 100%;
+    }
+    .hero-btn, #form-button-hero {
+        width: 60%;
+        font-size: 0.95rem;
+        height: 40px;
+    }
+}

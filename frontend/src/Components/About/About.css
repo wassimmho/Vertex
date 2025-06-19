@@ -4,7 +4,7 @@
 
 .about-container {
     height: 60vh;
-    width: 100vw;
+    width: 100%;
     background-color: #ffffff;
     font-family: "Roboto mono", sans-serif;
     padding-top: 5vh;
@@ -39,4 +39,34 @@
 #text-span-about{
     color: #2F94F9;
     font-weight: 600;
+}
+
+
+@media (max-width: 900px){
+    .about-container {
+        height: auto;
+        padding: 20px;
+        width: 100%;
+    }
+
+    #About-title {
+        font-size: 2.5rem;
+    }
+
+    #about-paragraph {
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    #About-title {
+        font-size: 2rem;
+    }
+
+    #about-paragraph {
+        font-size: 0.9rem;
+        padding: 0 10px;
+    }
 }

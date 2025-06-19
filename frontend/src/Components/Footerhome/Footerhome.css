@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
+
 .footer-home {
   background-color: rgb(255, 255, 255);
   height: 50px; /* Adjust height as needed */
@@ -35,4 +36,40 @@
 
 .footer-text-home{
     font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .footer-home {
+    padding: 0 ;
+  }
+
+  .github-icon, .linkedin-icon {
+    width: 20px; 
+    height: 20px;
+  }
+}
+
+@media (max-width:900px) {
+  .footer-home {
+    padding: 0px;
+  }
+
+   .linkedin-icon {
+    width: 26px;
+    height: auto;
+  }
+
+  .github-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer-text-home{
+    font-size: 0.7rem;
+}
+
+.social-icons{
+    right: 0;
+    gap: 10px;
+}
 }
