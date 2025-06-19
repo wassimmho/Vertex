@@ -91,6 +91,7 @@
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
+    height: auto;
 }
 
 .box {
@@ -160,4 +161,15 @@
 
 .links a:hover {
     color: #325efb;
+}
+
+@media (max-width: 900px) {
+    .Boxs {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box {
+        width: 90vw;
+        max-width: 400px;
+    }
 }

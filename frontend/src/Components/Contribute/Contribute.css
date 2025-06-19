@@ -6,7 +6,8 @@
     width: 50vw;
     border: 2px solid #b7b5b5;
     background-color: rgba(241, 240, 240, 0.75);
-    padding: 10px;
+    padding-left: 10px;
+    margin-left: 30px;
 }
 .contribute-title{
     font-size: 1.2rem;
@@ -26,4 +27,31 @@
     font-weight: 500;
     text-decoration: underline;
     cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    .contribute-container1{
+        padding: 0px;
+        width: 90vw !important;
+    }
+    .contribute-title{
+        font-size: 0.6rem;
+        margin-bottom: 5px;
+    }
+    .contribute-text {
+        font-size: 0.5rem ;
+    }
+}
+
+@media (max-width: 900px )and( min-width: 501px) {
+    .contribute-container1{
+        padding: 0px;
+        width: 90vw !important;
+    }
+    .contribute-title{
+        font-size: 1rem;
+    }
+    .contribute-text {
+        font-size: 0.9rem;
+    }
 }

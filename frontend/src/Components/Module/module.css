@@ -9,15 +9,22 @@
 .module-name{
     padding-left: 3vw;
     font-family: 'Space Grotesk';
+    margin-bottom: 10px;
+    margin-top: 30px;
+
 }
 .module-exp{
     font-family: 'Roboto Mono', sans-serif;
     padding-left: 3vw;
+        margin-bottom: 10px;
+
 }
 .Resources{
     padding-left: 3vw;
     font-family:'poppins', sans-serif;
     font-weight: 400;
+        margin-bottom: 10px;
+
 }
 
 #choose-specialty-text{
@@ -58,7 +65,59 @@
     border-radius: 50px;
     background-color: rgb(50, 135, 245);
 }
-.contribute-component{
-    padding-top: 20vh;
-    padding-left: 4vw;
+
+
+@media (max-width: 900px) and (min-width: 501px) {
+    .container-module-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contribute-component {
+        height: 100%;
+        padding-left: 2vw;
+        margin: 30px 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .module-info {
+        width: 100vw;
+        height: auto;
+    }
+    .module-name,
+    .module-exp,
+    .Resources {
+        padding-left: 4vw;
+        padding-right: 4vw;
+        margin-bottom: 20px;
+    }
+
+    .module-name{
+        margin-top: 10px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    
+    .contribute-component {
+        height: 100%;
+        margin: 30px 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .module-name{
+        font-size: 1.5rem;
+        padding-left: 2vw;
+    }
+
+    .module-description{
+        font-size: 1rem;
+    }
+
+    .module-coe-container{
+        margin-left: 4vw;
+    }
+    
 }

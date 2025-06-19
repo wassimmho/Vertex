@@ -127,3 +127,39 @@
   text-decoration: underline;
   font-weight: 600;
 }
+
+@media (max-width: 900px) {
+  .filtre-container {
+    width: 40vw;
+    padding: 16px 0 0 12px;
+    max-height: 500px;
+  }
+}
+
+@media (max-width: 900px) {
+  .filtre-container {
+    width: 100vw;
+    max-width: 100vw;
+    padding: 10px 8px 0 8px;
+    margin-top: 10px;
+    max-height: 300px;
+    font-size: 0.95rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-bottom: 1px solid #eee;
+  }
+  .filtre-header {
+    font-size: 1.3rem;
+  }
+  .filtre-year {
+    font-size: 1rem;
+    margin-left: 8px;
+  }
+  .filtre-specialities {
+    margin-left: 16px;
+    font-size: 0.95rem;
+    padding-left: 6px;
+  }
+  .filtre-modules {
+    font-size: 1rem;
+  }
+}
