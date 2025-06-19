@@ -33,7 +33,9 @@ const module = () => {
                     <div>
                         <h1 className="module-name">{selectedModule.title}</h1>
                         <p className="module-exp"  >{selectedModule.description}</p>
-                        <p className="module-exp" >Coefficient: {selectedModule.coeff}</p>
+                        <div className="module-coe-container">
+                            <p className="module-coe" >Coefficient: {selectedModule.coeff}</p>
+                        </div>
                         <div className="links">
                             {selectedModule.resources && selectedModule.resources.length > 0 ? (
                                 selectedModule.resources.map((resource, index) => (
