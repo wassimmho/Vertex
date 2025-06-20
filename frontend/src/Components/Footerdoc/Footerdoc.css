@@ -43,7 +43,7 @@
   width: auto;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 900px) and (min-width: 701px) {
   .footer-doc {
     padding: 0 10px;
     font-size: 0.7rem;
@@ -64,12 +64,11 @@
   .footer-doc {
     height: auto;
     padding: 8px 4px;
-    font-size: 0.65rem;
     margin-left: 0;
     width: 100vw;
   }
   .footer-text-doc {
-    font-size: 0.75rem;
+    font-size: 0.6rem;
   }
   .social-icons-doc {
     margin-left: 35%;

@@ -32,6 +32,7 @@
     font-family: 'Roboto Mono', sans-serif;
     font-size: 1.2rem;
     text-decoration: underline;
+    margin-top: 20px;
 }
 
 #choose-module-text{
@@ -118,6 +119,10 @@
 
     .module-coe-container{
         margin-left: 4vw;
+    }
+
+    #choose-specialty-text, #choose-module-text{
+        font-size: 1rem;
     }
     
 }
