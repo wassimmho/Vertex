@@ -10,7 +10,7 @@
 # ⚡️ Vertex
 > **Vertex** is a website designed for **USTHB** students to quickly find academic resources — making studying simpler, organized, and more productive.
 
-🌐 **Live Demo**: [Vertex](vertexstudents.netlify.app)
+🌐 **Live Demo**: [Vertex](https://vertexstudents.netlify.app)
 
 ---
 
