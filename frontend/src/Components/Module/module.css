@@ -1,10 +1,12 @@
 .container-module-info{
     display: flex;
     gap:20px;
+    height: 100%;
 }
 .module-info{
     width:120vmax;
-    height: 660px;
+    height: 100%;
+    overflow-y: auto;
 }
 .module-name{
     padding-left: 3vw;
@@ -67,6 +69,9 @@
     background-color: rgb(50, 135, 245);
 }
 
+.contribute-component {
+    width: 100%;
+}
 
 @media (max-width: 900px) and (min-width: 501px) {
     .container-module-info {
@@ -79,7 +84,6 @@
         padding-left: 2vw;
         margin: 30px 0px;
         display: flex;
-        justify-content: center;
     }
     .module-info {
         width: 100vw;

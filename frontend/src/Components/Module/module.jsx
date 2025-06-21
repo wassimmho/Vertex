@@ -31,7 +31,7 @@ const module = () => {
             </nav>
             <div className="module-info">
                 {selectedModule ? (
-                    <div>
+                    <div className="module-details">
                         <h1 className="module-name">{selectedModule.title}</h1>
                         <p className="module-exp"  >{selectedModule.description}</p>
                         <div className="module-coe-container">

@@ -22,7 +22,9 @@
 }
 .module-info{
     width:120vmax;
-    height: 660px;
+    height: 100%;
+    overflow: hidden;
+
 }
 .module-name{
     padding-left: 3vw;
@@ -48,7 +50,7 @@
     height: auto;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 500px) {
     .container-module-info {
         flex-direction: column;
         gap: 10px;
