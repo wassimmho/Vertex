@@ -1,0 +1,103 @@
+[
+  {
+    "specialities": "L1"
+  },
+  {
+    "id": "S1",
+    "courses": [
+      {
+        "id": "ALG1",
+        "title": "Algebra 1",
+        "description": "Fundamental concepts of algebra.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ANALY1",
+        "title": "Analyse 1",
+        "description": "Introduction to mathematical analysis.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "STRMI",
+        "title": "Structure Machine/Initiation",
+        "description": "Introduction to computer structure and initiation.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "MP",
+        "title": "Mécanique/Physique",
+        "description": "Fundamentals of mechanics and physics.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "TCE",
+        "title": "Technique de Communication Écrite",
+        "description": "Written communication techniques.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "LANGUE",
+        "title": "Langue Étrangère",
+        "description": "Foreign language studies.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "courses": [
+      {
+        "id": "ALG2",
+        "title": "Algebra 2",
+        "description": "Advanced concepts of algebra.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ANALY2",
+        "title": "Analyse 2",
+        "description": "Continuation of mathematical analysis.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "STAT",
+        "title": "Statistiques",
+        "description": "Introduction to statistics.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ELEC",
+        "title": "Électricité",
+        "description": "Fundamentals of electricity.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "OPM",
+        "title": "Organisation et Pratique de la Machine",
+        "description": "Organization and practice of the machine.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      }
+    ]
+  }
+]

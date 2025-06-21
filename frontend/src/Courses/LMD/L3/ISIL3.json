@@ -1,0 +1,103 @@
+[
+  {
+    "specialities": "ISIL3"
+  },
+  {
+    "id": "S5",
+    "courses": [
+      {
+        "id": "BD2",
+        "title": "Bases de Données 2",
+        "description": "Database systems 2.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "COMPL",
+        "title": "Complexité",
+        "description": "Computational complexity.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "SYS02",
+        "title": "Systèmes 2",
+        "description": "Systems 2.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "RESEAUX1",
+        "title": "Réseaux Informatiques 1",
+        "description": "Computer networks 1.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "GL2",
+        "title": "Génie Logiciel 2",
+        "description": "Software engineering 2.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "SIZ",
+        "title": "Systèmes d’Information et de Gestion",
+        "description": "Information and management systems.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ANGLAIS",
+        "title": "Anglais",
+        "description": "English language studies.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      }
+    ]
+  },
+  {
+    "id": "S6",
+    "courses": [
+      {
+        "id": "GL3",
+        "title": "Génie Logiciel 3",
+        "description": "Software engineering 3.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "BD3",
+        "title": "Bases de Données 3",
+        "description": "Database systems 3.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "MATHOPT",
+        "title": "Optimisation Mathématique",
+        "description": "Mathematical optimization.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ANGLAIS",
+        "title": "Anglais",
+        "description": "English language studies.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      }
+    ]
+  }
+]

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './filter.css';
 import arrow from '../../assets/arrow.svg';
-import path from 'path';
 import ENG1 from '../../Courses/ENG/1PC/ENG1.json'
 import ENG2 from '../../Courses/ENG/2PC/ENG2.json';
 import AI1 from '../../Courses/ENG/3PC/AI1.json';
@@ -10,12 +9,16 @@ import SE1 from '../../Courses/ENG/3PC/SE1.json';
 import AI2 from '../../Courses/ENG/4PC/AI2.json';
 import CS2 from '../../Courses/ENG/4PC/CS2.json';
 import SE2 from '../../Courses/ENG/4PC/SE2.json'; 
+import L1 from '../../Courses/LMD/L1/L1.json';
+import ACAD2 from '../../Courses/LMD/L2/ACAD2.json';
+import GTR2 from '../../Courses/LMD/L2/GTR2.json';
+import ISIL2 from '../../Courses/LMD/L2/ISIL2.json';
 
 
 
 const lmdYears = [
-  { year: 'L1', specialities: ['Spec A', 'Spec B'] },
-  { year: 'L2', specialities: ['Spec C', 'Spec D'] },
+  { year: 'L1', specialities: [L1[0].specialities] },
+  { year: 'L2', specialities: [ACAD2[0].specialities, GTR2[0].specialities, ISIL2[0].specialities] },
   { year: 'L3', specialities: ['Spec E', 'Spec F'] },
   { year: 'M1', specialities: ['Spec G', 'Spec H'] },
   { year: 'M2', specialities: ['Spec I', 'Spec J'] },
@@ -71,8 +74,13 @@ const Filtre = ({ onSpecialitySelect, onModuleSelect, selectedSpeciality, select
     }
   };
 
-  const getModulesForSpeciality = (speciality) => {
-    const allData = [ENG1, ENG2, AI1, CS1, SE1, AI2, CS2, SE2];
+  const getModulesForSpeciality = (section, speciality) => {
+    let allData = [];
+    if (section === 'LMD') {
+      allData = [L1, ACAD2, GTR2, ISIL2];
+    } else if (section === 'Engineering') {
+      allData = [ENG1, ENG2, AI1, CS1, SE1, AI2, CS2, SE2];
+    }
     const foundData = allData.find((data) => data[0].specialities === speciality);
     return foundData ? foundData.slice(1) : [];
   };
@@ -98,7 +106,7 @@ const Filtre = ({ onSpecialitySelect, onModuleSelect, selectedSpeciality, select
                         {spec}
                         {selectedSpeciality === spec && (
                           <ul className="filtre-modules">
-                            {getModulesForSpeciality(spec).map((semester) =>
+                            {getModulesForSpeciality('LMD',spec).map((semester) =>
                               semester.courses.map((course) => (
                                 <li
                                   key={course.id}
@@ -142,7 +150,7 @@ const Filtre = ({ onSpecialitySelect, onModuleSelect, selectedSpeciality, select
                         {spec}
                         {selectedSpeciality === spec && (
                           <ul className="filtre-modules">
-                            {getModulesForSpeciality(spec).map((semester) =>
+                            {getModulesForSpeciality('Engineering',spec).map((semester) =>
                               semester.courses.map((course) => (
                                 <li
                                   key={course.id}

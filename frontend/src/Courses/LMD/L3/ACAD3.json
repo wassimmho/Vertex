@@ -1,0 +1,103 @@
+[
+  {
+    "specialities": "ACAD3"
+  },
+  {
+    "id": "S5",
+    "courses": [
+      {
+        "id": "ROP",
+        "title": "Recherche Opérationnelle",
+        "description": "Operational research.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "COMPL",
+        "title": "Complexité",
+        "description": "Computational complexity.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "GL",
+        "title": "Génie Logiciel",
+        "description": "Software engineering.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "SYS02",
+        "title": "Systèmes 2",
+        "description": "Systems 2.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "RESEAUX",
+        "title": "Réseaux",
+        "description": "Networks.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "EXTRINFO",
+        "title": "Extraction d'Information",
+        "description": "Information extraction.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ANGLAIS",
+        "title": "Anglais",
+        "description": "English language studies.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      }
+    ]
+  },
+  {
+    "id": "S6",
+    "courses": [
+      {
+        "id": "PWEB",
+        "title": "Programmation Web",
+        "description": "Web programming.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ACSERV",
+        "title": "Architecture/Client Serveur",
+        "description": "Client-server architecture.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "DOCSTR",
+        "title": "Document Structuré",
+        "description": "Structured document.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ANGLAIS",
+        "title": "Anglais",
+        "description": "English language studies.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      }
+    ]
+  }
+]

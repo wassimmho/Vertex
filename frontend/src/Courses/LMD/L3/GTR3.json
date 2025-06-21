@@ -1,0 +1,111 @@
+[
+  {
+    "specialities": "GTR3"
+  },
+  {
+    "id": "S5",
+    "courses": [
+      {
+        "id": "TICT",
+        "title": "Technologies de l’Information et de la Communication pour le Transport",
+        "description": "Information and communication technologies for transport.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "PROGWEB",
+        "title": "Programmation Web",
+        "description": "Web programming.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "TIMIP",
+        "title": "Techniques d’Implémentation et d’Intégration des Moyens Informatiques et Physiques",
+        "description": "Implementation and integration techniques for IT and physical means.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "SCAN",
+        "title": "Systèmes de Communication et d’Accès au Numérique",
+        "description": "Communication and digital access systems.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "RESSANSFIL",
+        "title": "Réseaux sans fil",
+        "description": "Wireless networks.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "STRI",
+        "title": "Systèmes de Transmission et Réseaux Informatiques",
+        "description": "Transmission systems and computer networks.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ADMRES",
+        "title": "Administration des Réseaux",
+        "description": "Network administration.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ANGLAIS",
+        "title": "Anglais",
+        "description": "English language studies.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      }
+    ]
+  },
+  {
+    "id": "S6",
+    "courses": [
+      {
+        "id": "SECURITE",
+        "title": "Sécurité",
+        "description": "Security.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "QOS",
+        "title": "Qualité de Service",
+        "description": "Quality of service.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "BD",
+        "title": "Bases de Données",
+        "description": "Database systems.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ANGLAIS",
+        "title": "Anglais",
+        "description": "English language studies.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      }
+    ]
+  }
+]

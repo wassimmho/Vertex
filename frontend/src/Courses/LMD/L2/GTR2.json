@@ -1,0 +1,127 @@
+[
+  {
+    "specialities": "GTR2"
+  },
+  {
+    "id": "S3",
+    "courses": [
+      {
+        "id": "ELECTANA",
+        "title": "Électronique Analogique",
+        "description": "Analog electronics.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ELECTROMAG",
+        "title": "Électromagnétisme",
+        "description": "Electromagnetism.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ALGO2",
+        "title": "Algorithmique 2",
+        "description": "Advanced algorithms and programming techniques.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "UASE",
+        "title": "Unité d’Apprentissage des Sciences de l’Entreprise",
+        "description": "Business science learning unit.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "TRCI",
+        "title": "Transmission et Circuits",
+        "description": "Transmission and circuits.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ELECTNUM",
+        "title": "Électronique Numérique",
+        "description": "Digital electronics.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ANGLAIS",
+        "title": "Anglais",
+        "description": "English language studies.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "courses": [
+      {
+        "id": "SYSEX",
+        "title": "Systèmes d’Exploitation",
+        "description": "Operating systems.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "INTWEB",
+        "title": "Internet et Web",
+        "description": "Internet and web technologies.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ANTPROC",
+        "title": "Antennes et Propagation",
+        "description": "Antennas and propagation.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "MECPROC",
+        "title": "Mécanique des Procédés",
+        "description": "Process mechanics.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "TRAITSIG",
+        "title": "Traitement du Signal",
+        "description": "Signal processing.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "NLR",
+        "title": "Non Linearité et Réseaux",
+        "description": "Nonlinearity and networks.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ANGLAIS",
+        "title": "Anglais",
+        "description": "English language studies.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      }
+    ]
+  }
+]

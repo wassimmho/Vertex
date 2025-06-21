@@ -1,0 +1,127 @@
+[
+  {
+    "specialities": "ISIL2"
+  },
+  {
+    "id": "S3",
+    "courses": [
+      {
+        "id": "ANUM",
+        "title": "Analyse Numérique",
+        "description": "Numerical analysis.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "PROBASTAT",
+        "title": "Probabilité et Statistiques",
+        "description": "Probability and statistics.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ALGO3",
+        "title": "Algorithmique 3",
+        "description": "Advanced algorithms and programming techniques.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ARCHI",
+        "title": "Architecture",
+        "description": "Computer architecture and organization.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "LOGIQUE",
+        "title": "Logique",
+        "description": "Mathematical logic and reasoning.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "SII",
+        "title": "Systèmes Informatiques et Industriels",
+        "description": "Computer and industrial systems.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "POO",
+        "title": "Programmation Orientée Objet",
+        "description": "Object-oriented programming.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ANGLAIS",
+        "title": "Anglais",
+        "description": "English language studies.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "courses": [
+      {
+        "id": "SYS1",
+        "title": "Systèmes 1",
+        "description": "Systems 1.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ARCH2",
+        "title": "Architecture 2",
+        "description": "Computer architecture 2.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "PWEB",
+        "title": "Programmation Web",
+        "description": "Web programming.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "GL2",
+        "title": "Génie Logiciel 2",
+        "description": "Software engineering 2.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "BD1",
+        "title": "Bases de Données 1",
+        "description": "Database systems 1.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ANGLAIS",
+        "title": "Anglais",
+        "description": "English language studies.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      }
+    ]
+  }
+]

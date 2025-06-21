@@ -1,0 +1,127 @@
+[
+  {
+    "specialities": "ACAD2"
+  },
+  {
+    "id": "S3",
+    "courses": [
+      {
+        "id": "ALG2",
+        "title": "Algebra 2",
+        "description": "Advanced concepts of algebra.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "MATHINFO",
+        "title": "Mathematics for Computer Science",
+        "description": "Mathematical foundations for computer science.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ALGO2",
+        "title": "Algorithmique 2",
+        "description": "Advanced algorithms and programming techniques.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "LOGIQUE",
+        "title": "Logic",
+        "description": "Mathematical logic and reasoning.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ARCHIT",
+        "title": "Architecture",
+        "description": "Computer architecture and organization.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "PROBSTAT",
+        "title": "Probability and Statistics",
+        "description": "Introduction to probability and statistics.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "SI",
+        "title": "Systèmes Informatiques",
+        "description": "Computer systems.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ANGLAIS",
+        "title": "Anglais",
+        "description": "English language studies.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "courses": [
+      {
+        "id": "THL",
+        "title": "Théorie des Langages",
+        "description": "Theory of languages.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ARCH2",
+        "title": "Architecture 2",
+        "description": "Computer architecture 2.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "SYSEXP1",
+        "title": "Systèmes d’Exploitation 1",
+        "description": "Operating systems 1.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "POO",
+        "title": "Programmation Orientée Objet",
+        "description": "Object-oriented programming.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "BDD",
+        "title": "Bases de Données",
+        "description": "Database systems.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ANGLAIS",
+        "title": "Anglais",
+        "description": "English language studies.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      }
+    ]
+  }
+]
