@@ -1,0 +1,90 @@
+[
+  {
+    "specialities": "BIGDATA1"
+  },
+  {
+    "id": "S1",
+    "courses": [
+      {
+        "id": "SSAD",
+        "title": "Systèmes et Sécurité des Applications Distribuées",
+        "description": "Distributed application systems and security.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "GP",
+        "title": "Gestion de Projet",
+        "description": "Project management.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "PRAVAN",
+        "title": "Programmation Avancée",
+        "description": "Advanced programming.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "POO",
+        "title": "Programmation Orientée Objet",
+        "description": "Object-oriented programming.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "VT",
+        "title": "Validation et Test",
+        "description": "Validation and testing.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "BADO",
+        "title": "Bases de Données Orientées Objet",
+        "description": "Object-oriented databases.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "CPSI",
+        "title": "Conception et Programmation des Systèmes d'Information",
+        "description": "Design and programming of information systems.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "THOR",
+        "title": "Théorie et Outils de Recherche",
+        "description": "Theory and research tools.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "GRAPHEBIGDATA",
+        "title": "Graphes et Big Data",
+        "description": "Graphs and big data.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      },
+      {
+        "id": "ANGLAIS",
+        "title": "Anglais",
+        "description": "English language studies.",
+        "coeff": "?",
+        "resources": [],
+        "External Resources": []
+      }
+    ]
+  }
+]
