@@ -4,13 +4,16 @@ import AppRouter from './router/Approuter.jsx'
 import Resources from './Components/Resources/Resources.jsx'
 import Filtre from './Components/Filtre/filtre.jsx'
 import Contribute from './Components/Contribute/Contribute.jsx'
+import Navbar from './Components/Navbar/Navbar.jsx'
+
+import Footerdoc from "./Components/Footerdoc/Footerdoc";
 import './App.css'
 
 function App() {
   return (
-    //<Contribute/>
+    //<Footerdoc/>
      <BrowserRouter>
-       <AppRouter />
+      <AppRouter />
     </BrowserRouter>
   )
 }
