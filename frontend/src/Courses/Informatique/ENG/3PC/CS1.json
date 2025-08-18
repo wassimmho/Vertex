@@ -9,13 +9,25 @@
         "id": "UEF51",
         "title": "Mathematical Tools for Cryptography",
         "description": "Mathematical foundations and tools used in cryptography.",
-        "coeff": 4
+        "coeff": 4,
+        "resources": [
+          {
+            "title": "Folder",
+            "link": "https://drive.google.com/drive/folders/11lzBFcslvrEeIEJBTTKRIu1m23BTTFO-?usp=drive_link"
+          }
+        ]
       },
       {
         "id": "UEF51-OR",
         "title": "Operational Research",
         "description": "Introduction to operational research and optimization techniques.",
-        "coeff": 4
+        "coeff": 4,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/1XrcooAC_BeOvf4Y7UsT_6ggLYdBIibN4?usp=drive_link"
+          }
+        ]
       },
       {
         "id": "UEF52",
@@ -27,25 +39,49 @@
         "id": "UEF52-SE",
         "title": "Software Engineering",
         "description": "Software development methodologies and project management.",
-        "coeff": 2
+        "coeff": 2,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/1Z7qmK7j1xwQ_-u-hcWIs91e0PXCOKp1g?usp=drive_link"
+          }
+        ]
       },
       {
         "id": "UEM5-PP",
         "title": "Python Programming",
         "description": "Advanced programming concepts using Python.",
-        "coeff": 2
+        "coeff": 2,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/12PGcvYAs8db0fv4Ho0jvy149GVEZF275?usp=drive_link"
+          }
+        ]
       },
       {
         "id": "UEM5-WD",
         "title": "Web Development",
         "description": "Fundamentals of web development and technologies.",
-        "coeff": 2
+        "coeff": 2,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/1U6qDeXKG-jK79b_QRrPB_AE0TVXZMyjo?usp=drive_link"
+          }
+        ]
       },
       {
         "id": "UED5-TIC",
         "title": "Theory of Information and Coding",
         "description": "Introduction to information theory and coding techniques.",
-        "coeff": 1
+        "coeff": 1,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/1U6qDeXKG-jK79b_QRrPB_AE0TVXZMyjo?usp=drive_link"
+          }
+        ]
       },
       {
         "id": "UET5-BI",
