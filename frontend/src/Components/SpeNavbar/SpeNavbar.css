@@ -1,0 +1,28 @@
+.spe-navbar{
+    width: 100vw;
+    height: 3rem;
+    padding: 0.5rem 0.5rem;
+    background-color: rgb(0, 0, 0);
+
+}
+
+#specialities-list {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    list-style: none;
+    gap: 50px;
+    color: white;
+    font-family: 'Roboto mono',sans-serif;
+}
+
+
+.spe-navbar::-webkit-scrollbar {
+    display: none; 
+}
+

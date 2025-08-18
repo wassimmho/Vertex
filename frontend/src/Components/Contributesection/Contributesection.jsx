@@ -1,6 +1,6 @@
 import "./Contributesection.css"
 import shape from "../../assets/weirdshape.svg";
-
+import Footerhome from "../Footerhome/Footerhome";
 function Contributesection() {
     return (
         <>
@@ -25,6 +25,9 @@ function Contributesection() {
                     <img src={shape} alt="dashed shape" className="shape" id="topshape"/>
                     <img src={shape} alt="dashed shape" className="shape" id="bottomshape"/>
                 </div>
+                {/*<div className="contribute-footer">
+                <Footerhome/>
+                </div>*/}
             </div>
         </>
     );

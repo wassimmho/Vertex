@@ -2,45 +2,45 @@ import React, { useState } from 'react';
 import './filter.css';
 import arrow from '../../assets/arrow.svg';
 
-import ENG1 from '../../Courses/ENG/1PC/ENG1.json'
+import ENG1 from '../../Courses/Informatique/ENG/1PC/ENG1.json'
 
-import ENG2 from '../../Courses/ENG/2PC/ENG2.json';
+import ENG2 from '../../Courses/Informatique/ENG/2PC/ENG2.json';
 
-import AI1 from '../../Courses/ENG/3PC/AI1.json';
-import CS1 from '../../Courses/ENG/3PC/CS1.json';
-import SE1 from '../../Courses/ENG/3PC/SE1.json';
+import AI1 from '../../Courses/Informatique/ENG/3PC/AI1.json';
+import CS1 from '../../Courses/Informatique/ENG/3PC/CS1.json';
+import SE1 from '../../Courses/Informatique/ENG/3PC/SE1.json';
 
-import AI2 from '../../Courses/ENG/4PC/AI2.json';
-import CS2 from '../../Courses/ENG/4PC/CS2.json';
-import SE2 from '../../Courses/ENG/4PC/SE2.json'; 
+import AI2 from '../../Courses/Informatique/ENG/4PC/AI2.json';
+import CS2 from '../../Courses/Informatique/ENG/4PC/CS2.json';
+import SE2 from '../../Courses/Informatique/ENG/4PC/SE2.json'; 
 
-import L1 from '../../Courses/LMD/L1/L1.json';
+import L1 from '../../Courses/Informatique/LMD/L1/L1.json';
 
-import ACAD2 from '../../Courses/LMD/L2/ACAD2.json';
-import GTR2 from '../../Courses/LMD/L2/GTR2.json';
-import ISIL2 from '../../Courses/LMD/L2/ISIL2.json';
+import ACAD2 from '../../Courses/Informatique/LMD/L2/ACAD2.json';
+import GTR2 from '../../Courses/Informatique/LMD/L2/GTR2.json';
+import ISIL2 from '../../Courses/Informatique/LMD/L2/ISIL2.json';
 
-import ACAD3 from '../../Courses/LMD/L3/ACAD3.json';
-import GTR3 from '../../Courses/LMD/L3/GTR3.json';
-import ISIL3 from '../../Courses/LMD/L3/ISIL3.json';
+import ACAD3 from '../../Courses/Informatique/LMD/L3/ACAD3.json';
+import GTR3 from '../../Courses/Informatique/LMD/L3/GTR3.json';
+import ISIL3 from '../../Courses/Informatique/LMD/L3/ISIL3.json';
 
-import BIGDATA1 from '../../Courses/LMD/M1/BIGDATA1.json';
-import BIOINFO1 from '../../Courses/LMD/M1/BIOINFO1.json';
-import HPC1 from '../../Courses/LMD/M1/HPC1.json';
-import IL1 from '../../Courses/LMD/M1/IL1.json';
-import IV1 from '../../Courses/LMD/M1/IV1.json';
-import RSD1 from '../../Courses/LMD/M1/RSD1.json';
-import SII1 from '../../Courses/LMD/M1/SII1.json';
-import SSI1 from '../../Courses/LMD/M1/SSI1.json';
+import BIGDATA1 from '../../Courses/Informatique/LMD/M1/BIGDATA1.json';
+import BIOINFO1 from '../../Courses/Informatique/LMD/M1/BIOINFO1.json';
+import HPC1 from '../../Courses/Informatique/LMD/M1/HPC1.json';
+import IL1 from '../../Courses/Informatique/LMD/M1/IL1.json';
+import IV1 from '../../Courses/Informatique/LMD/M1/IV1.json';
+import RSD1 from '../../Courses/Informatique/LMD/M1/RSD1.json';
+import SII1 from '../../Courses/Informatique/LMD/M1/SII1.json';
+import SSI1 from '../../Courses/Informatique/LMD/M1/SSI1.json';
 
-import BIGDATA2 from '../../Courses/LMD/M2/BIGDATA2.json';
-import BIOINFO2 from '../../Courses/LMD/M2/BIOINFO2.json';
-import HPC2 from '../../Courses/LMD/M2/HPC2.json';
-import IL2 from '../../Courses/LMD/M2/IL2.json';
-import IV2 from '../../Courses/LMD/M2/IV2.json';
-import RSD2 from '../../Courses/LMD/M2/RSD2.json';
-import SII2 from '../../Courses/LMD/M2/SII2.json';
-import SSI2 from '../../Courses/LMD/M2/SSI2.json';
+import BIGDATA2 from '../../Courses/Informatique/LMD/M2/BIGDATA2.json';
+import BIOINFO2 from '../../Courses/Informatique/LMD/M2/BIOINFO2.json';
+import HPC2 from '../../Courses/Informatique/LMD/M2/HPC2.json';
+import IL2 from '../../Courses/Informatique/LMD/M2/IL2.json';
+import IV2 from '../../Courses/Informatique/LMD/M2/IV2.json';
+import RSD2 from '../../Courses/Informatique/LMD/M2/RSD2.json';
+import SII2 from '../../Courses/Informatique/LMD/M2/SII2.json';
+import SSI2 from '../../Courses/Informatique/LMD/M2/SSI2.json';
 
 const lmdYears = [
   { year: 'L1', specialities: [L1[0].specialities] },

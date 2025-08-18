@@ -1,0 +1,308 @@
+[
+    {
+    "specialities":"ENG2"
+  },
+  {
+    "id": "S3",
+    "courses": [
+      {
+        "id": "ADS3",
+        "title": "Algorithm and Data Structures 3",
+        "description": "Advanced topics in algorithms and data structures.",
+        "coeff": 4,
+        "resources":[
+          {
+            "title":"Courses",
+            "link":"https://drive.google.com/drive/folders/1ktSpqbHcFAVvAvtrdaFz7oLyCENNDcCw?usp=drive_link"
+          },
+          {
+            "title":"DW",
+            "link":"https://drive.google.com/drive/folders/14f0xko6KM32kxRSjrQMfVc95Y4NZQr7B?usp=drive_link"
+          },
+          {
+            "title":"Test",
+            "link":"https://drive.google.com/drive/folders/1UBfmV6eUvMkN5vSHEpbKqqqOnoc2KCFY?usp=drive_link"
+          },
+          {
+            "title":"Retakes",
+            "link":"https://drive.google.com/drive/folders/1tIHiqxnmMuuVG2V0EiJY09PGSWiJgbx8?usp=drive_link"
+          },
+          {
+            "title":"Exams",
+            "link":"https://drive.google.com/drive/folders/1NZBFx6T1-uQhB2JPir063qUiX8TUg3he?usp=drive_link"
+          }
+        ],
+        "External Resources": [
+          {
+            "Youtube-links": [
+              
+              {
+                "title": "Bro Code",
+                "link": "https://www.youtube.com/@BroCodez"
+              }
+            ],
+            "Drive-links": [],
+            "Other-links": []
+          }
+        ]
+      },
+      {
+        "id": "OOP1",
+        "title": "Object Oriented Programming 1",
+        "description": "Introduction to object-oriented programming concepts.",
+        "coeff": 4,
+        "resources":[
+          {
+            "title":"Courses",
+            "link":"https://drive.google.com/drive/folders/1SS54HYeTQx0LOiTRh_gME6WwAZ0Cyans?usp=sharing"
+          },
+          {
+            "title":"PW",
+            "link":"https://drive.google.com/drive/folders/1ZzmfOn3zWuSdGkYLp7m06SpqtvTSRzyF?usp=sharing"
+          },
+          {
+            "title":"Exams",
+            "link":"https://drive.google.com/drive/folders/1eOdz4u1lvgDshTsbYx7m6-Wq9Dz6U98Z?usp=sharing"
+          }
+        ]
+      },
+      {
+        "id": "SI",
+        "title": "Introduction to Information Systems",
+        "description": "Fundamentals of information systems.",
+        "coeff": 3,
+        "resources":[
+          {
+            "title":"Courses",
+            "link":"https://drive.google.com/drive/folders/1AcnzGRqcbyBQhy7eX8twDI5UyNva2_WE?usp=drive_link"
+          },
+          {
+            "title":"DW",
+            "link":"https://drive.google.com/drive/folders/1OkowX8ph_hdoZUcegzk6JacqSu3Rxwbs?usp=drive_link"
+          },
+          {
+            "title":"Exams",
+            "link":"https://drive.google.com/drive/folders/1J2tGqgcsc7DxgAkIese7nb0Tbskk4DAr?usp=drive_link"
+          }
+        ]
+      },
+      {
+        "id": "ALG3",
+        "title": "Algebra 3",
+        "description": "Further studies in algebra.",
+        "coeff": 3,
+        "resources":[
+          {
+            "title":"Courses",
+            "link":"https://drive.google.com/drive/folders/1WL-mdTFvxnyLrMKuONie0AofRAWjGlaf?usp=sharing"
+          },
+          {
+            "title":"DW",
+            "link":"https://drive.google.com/drive/folders/1x-WBTN6SYomoTretdSME6si3tsAAvo3e?usp=sharing"
+          },
+          {
+            "title":"Exams",
+            "link":"https://drive.google.com/drive/folders/11ioiMpNPG5HpxPj6SU4LfNyFeMBwY0VD?usp=sharing"
+          }
+        ]
+      },
+      {
+        "id": "AN3",
+        "title": "Analyse 3",
+        "description": "Advanced mathematical analysis.",
+        "coeff": 3,
+        "resources":[
+          {
+            "title":"Courses",
+            "link":"https://drive.google.com/drive/folders/1nWAprxcLkIRRdGHpoPjbX35irt_1APA7?usp=drive_link"
+          },
+          {
+            "title":"DW",
+            "link":"https://drive.google.com/drive/folders/1J8Z-i4W27kMalsaVA1Z2_uer7m5Q1fNJ?usp=drive_link"
+          },
+          {
+            "title":"Test",
+            "link":"https://drive.google.com/drive/folders/1Db5rwORiObOxB1MFm2fLJoy1u53U-rhw?usp=drive_link"
+          },
+          {
+            "title":"Exam",
+            "link":"https://drive.google.com/drive/folders/1xP8b8WBpzebgIRdsAhkV7b4gKGVUtEf1?usp=drive_link"
+          },
+          {
+            "title":"Books",
+            "link":"https://drive.google.com/drive/folders/1MJl9kCYWjgJBRb9JmwRu7koOHG36x3PM?usp=sharing"
+          },
+          {
+            "title":"References",
+            "link":"https://drive.google.com/drive/folders/1F6gKRTvJJpqNBCOdt_BHBlgHxzQooVWF?usp=drive_link"
+          }
+        ]
+      },
+      {
+        "id": "PS2",
+        "title": "Probability and Statistics 2",
+        "description": "Intermediate probability and statistics.",
+        "coeff": 2,
+        "resources":[
+          {
+            "title":"Courses",
+            "link":"https://drive.google.com/drive/folders/1WL-mdTFvxnyLrMKuONie0AofRAWjGlaf?usp=sharing"
+          },
+          {
+            "title":"DW",
+            "link":"https://drive.google.com/drive/folders/1x-WBTN6SYomoTretdSME6si3tsAAvo3e?usp=sharing"
+          },
+          {
+            "title":"Exams",
+            "link":"https://drive.google.com/drive/folders/11ioiMpNPG5HpxPj6SU4LfNyFeMBwY0VD?usp=sharing"
+          }
+        ]
+      },
+      {
+        "id": "ENT",
+        "title": "Entreprenariat",
+        "description": "Introduction to entrepreneurship.",
+        "coeff": 1,
+        "resources": [
+          {
+            "title": "Courses",
+            "link": "https://docs.google.com/presentation/d/1if0QHjNT6TQhVxx9w1JfnC0YkOJjSsm5/edit?usp=sharing&ouid=100426323127859065895&rtpof=true&sd=true"
+          }
+        ],
+        "External Resources": [
+          {
+            "Youtube-links": [],
+            "Drive-links": [],
+            "Other-links": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "courses": [
+      {
+        "id": "OOP2",
+        "title": "Object Oriented Programming 2",
+        "description": "Advanced object-oriented programming concepts.",
+        "coeff": 4,
+        "resources": [
+          {
+            "title": "Courses",
+            "link": "https://drive.google.com/drive/folders/1C_tH1rzWHTMFntBdHZojTgk8fhH-Qxo1?usp=drive_link"
+          },
+          {
+            "title": "PW",
+            "link": "https://drive.google.com/drive/folders/1OFvl9H-C1F_vLivlZvUP-W2nlIx1Ar1Q?usp=drive_link"
+          },
+          {
+            "title": "Exams",
+            "link": "https://drive.google.com/drive/folders/1TqKq0_g3qaXf1A_byA_wCQsvc9I6ZICL?usp=drive_link"
+          }
+        ],
+        "External Resources": [
+          {
+            "Youtube-links": [],
+            "Drive-links": [],
+            "Other-links": []
+          }
+        ]
+      },
+      {
+        "id": "IOS2",
+        "title": "Introduction to Operating Systems 2",
+        "description": "Further study of operating systems.",
+        "coeff": 4
+      },
+      {
+        "id": "RES",
+        "title": "Introduction to Networks",
+        "description": "Fundamentals of computer networking.",
+        "coeff": 3,
+        "resources": [
+          {
+            "title": "Courses",
+            "link": "https://drive.google.com/drive/folders/1uSbZgL7yv5b20p5KmqwXMXeBFI_Fi1Q5?usp=drive_link"
+          },
+          {
+            "title": "DW",
+            "link": "https://drive.google.com/drive/folders/16YEqpkU2keidue8evbcsgNUoHOO4FE27?usp=drive_link"
+          },
+          {
+            "title": "PW",
+            "link": "https://drive.google.com/drive/folders/1y83KeZ002VVyT29iayvagBdl5stDvKn8?usp=drive_link"
+          },
+          {
+            "title": "Exams",
+            "link": "https://drive.google.com/drive/folders/1gMsRwHpiq6Y3hEpmliQLup7qmB7MkNkQ?usp=drive_link"
+          }
+        ],
+        "External Resources": [
+          {
+            "Youtube-links": [],
+            "Drive-links": [],
+            "Other-links": []
+          }
+        ]
+      },
+      {
+        "id": "BD",
+        "title": "Introduction to Databases",
+        "description": "Basic concepts of database systems.",
+        "coeff": 3,
+        "resources": [
+          {
+            "title": "Folder",
+            "link": "https://drive.google.com/drive/folders/1p3hCgKjJzkxuWtXR_HSNI68Z3TPK42fF?usp=drive_link"
+          }
+        ]
+      },
+      {
+        "id": "TL",
+        "title": "Theory of Languages",
+        "description": "Introduction to formal languages and automata theory.",
+        "coeff": 3,
+        "resources": [
+          {
+            "title": "Courses",
+            "link": "https://drive.google.com/drive/folders/1LwFl4o_c3Qm5Zr229zV5F5o1nd0_4s0I?usp=drive_link"
+          },
+          {
+            "title": "DW",
+            "link": "https://drive.google.com/drive/folders/1SMmWvPAFFgIvb_cjGVTJHjcpoW5mDn8x?usp=drive_link"
+          },
+          {
+            "title": "Exams",
+            "link": "https://drive.google.com/drive/folders/18PdjaWDaTpOWFatSdcQUdqdinqX3nPOS?usp=drive_link"
+          }
+        ],
+        "External Resources": [
+          {
+            "Youtube-links": [],
+            "Drive-links": [],
+            "Other-links": []
+          }
+        ]
+      },
+      {
+        "id": "TG",
+        "title": "Graph Theory",
+        "description": "Fundamentals of graph theory.",
+        "coeff": 2,
+        "resources": [
+          {
+            "title": "Folder",
+            "link": "https://drive.google.com/drive/folders/1v1w7JM2jYVkT9VmxhqHtQwoI-HG0XWk3?usp=drive_link"
+          }
+        ]
+      },
+      {
+        "id": "DEO",
+        "title": "Deontology of Computer Science",
+        "description": "Ethics and deontology in computer science.",
+        "coeff": 1
+      }
+    ]
+  }
+]

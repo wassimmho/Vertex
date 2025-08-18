@@ -36,6 +36,7 @@
 
 .footer-text-home{
     font-weight: bold;
+    color: black;
 }
 
 @media (max-width: 600px) {

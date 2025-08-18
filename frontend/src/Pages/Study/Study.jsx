@@ -1,6 +1,7 @@
 import Navbar from "../../Components/Navbar/Navbar";
 import Footerdoc from "../../Components/Footerdoc/Footerdoc";
 import Module from "../../Components/Module/module";
+import SpeNavbar from "../../Components/SpeNavbar/SpeNavbar";
 import './Study.css'
 
 const Study = () =>{

@@ -4,7 +4,7 @@
 
 
 .contribute-container{
-    height: 60vh;
+    height: 100vh;
     width: 100%;
     background: #389CFF;
     color: white;
@@ -13,6 +13,14 @@
     display: grid;
     font-family: 'poppins', sans-serif;
     overflow: hidden;
+}
+
+.contribute-footer{
+    position: absolute;
+    bottom: 0;
+    width: 80vw;
+    z-index: 10;
+    justify-self: center;
 }
 
 .contribute-content{
@@ -41,7 +49,7 @@
 #contribute-paragraph{
     font-family: 'roboto mono', monospace;
     font-size: 1.2rem;
-    line-height: 1.5;
+    line-height: 2.5;
     width: 75%;
     margin-left: 10px;
 }
@@ -108,9 +116,7 @@
 
 
 @media (max-width: 900px){
-    .contribute-container{
-        height: auto;
-    }
+    
 
     #contribute-title{
         font-size: 2.3rem;
@@ -133,7 +139,6 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
-        height: auto;
     }
 
     #contribute-title{
