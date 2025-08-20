@@ -87,7 +87,13 @@
         "id": "UET5-BI",
         "title": "Business Intelligence",
         "description": "Principles and applications of business intelligence.",
-        "coeff": 1
+        "coeff": 1,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/1aMZGMy2XsaHYzDWE3quKZ-SBSgsfonS7?usp=drive_link"
+          }
+        ]
       }
     ]
   },
@@ -98,49 +104,97 @@
         "id": "UEF61",
         "title": "Advanced Cryptography",
         "description": "In-depth study of cryptographic algorithms and protocols.",
-        "coeff": 4
+        "coeff": 4,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/1tfzPpVL7JAfm2zrua5kSDK3F4x7kFkp3?usp=drive_link"
+          }
+        ]
       },
       {
         "id": "UEF61-MS",
         "title": "Modeling and Simulation",
         "description": "Techniques and tools for modeling and simulation.",
-        "coeff": 3
+        "coeff": 3,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/1US9g5X_zCU5HjVAl7opriClWCE2LkHPW?usp=drive_link"
+          }
+        ]
       },
       {
         "id": "UEF62",
         "title": "Cloud Computing",
         "description": "Principles and practices of cloud computing.",
-        "coeff": 3
+        "coeff": 3,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/1CFXggPZuOqUQIzCCIe46B1ZVulLpIL-o?usp=drive_link"
+          }
+        ]
       },
       {
         "id": "UEF62-AD",
         "title": "Advanced Databases",
         "description": "Advanced topics in database systems.",
-        "coeff": 3
+        "coeff": 3,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/16tNV7O4G6QCgeU_JbN3Mpwl5NqkzRaTl?usp=drive_link"
+          }
+        ]
       },
       {
         "id": "UEM6-MD",
         "title": "Mobile Development",
         "description": "Development of mobile applications.",
-        "coeff": 2
+        "coeff": 2,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/1eYlmC6lyjw-Izcvn1OeI9ElJLvAdIGkd?usp=drive_link"
+          }
+        ]
       },
       {
         "id": "UEM6-DSP",
         "title": "Digital Signal Processing",
         "description": "Fundamentals of digital signal processing.",
-        "coeff": 3
+        "coeff": 3,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/12tngefUOrSb1_6_HmG2UqudTa9u9asiB?usp=drive_link"
+          }
+        ]
       },
       {
         "id": "UED6-AI",
         "title": "AI Notions and Principles",
         "description": "Introduction to artificial intelligence concepts.",
-        "coeff": 1
+        "coeff": 1,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/1EzahXtbyV-4XNrIS779W4A6SJa0bKqFr?usp=drive_link"
+          }
+        ]
       },
       {
         "id": "UET6-SPD",
         "title": "Startup and Professional Development",
         "description": "Skills for startups and professional growth.",
-        "coeff": 1
+        "coeff": 1,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/1xqxfz_olWZImGSLk_ZClphpNhkoXNQdv?usp=drive_link"
+          }
+        ]
       }
     ]
   }

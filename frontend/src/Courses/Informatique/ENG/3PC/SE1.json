@@ -9,37 +9,73 @@
         "id": "UEF1",
         "title": "Algorithmique et Complexité Avancées",
         "description": "Advanced algorithms and complexity.",
-        "coeff": 4
+        "coeff": 4,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/1uyismwUp4OwCPEchyUrQHlknYeqIAeoS?usp=drive_link"
+          }
+        ]
       },
       {
         "id": "UEF1-GL",
         "title": "Génie Logiciel",
         "description": "Software engineering principles.",
-        "coeff": 4
+        "coeff": 4,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/1cqS4zOksnI7Tmw0o7BcVKsxAVdLqWGOC?usp=drive_link"
+          }
+        ]
       },
       {
         "id": "UEF2-BDD",
         "title": "BDD Administration et Architecture",
         "description": "Database administration and architecture.",
-        "coeff": 4
+        "coeff": 4,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/16A5wa1IS7spWcVFNU4LlCG8t0bZdAbGx?usp=drive_link"
+          }
+        ]
       },
       {
         "id": "UEF2-SE",
         "title": "Système d’Exploitation : Synchronisation et Communication",
         "description": "Operating systems: synchronization and communication.",
-        "coeff": 3
+        "coeff": 3,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/1qjbnYLLtm9TvrrtL1_p39usDLkVZCCkx?usp=drive_link"
+          }
+        ]
       },
       {
         "id": "UEM1-TO",
         "title": "Techniques d’Optimisation",
         "description": "Optimization techniques.",
-        "coeff": 3
+        "coeff": 3,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/11XPGYiLL4IsoLjxeTgLi5S9xWkf15QEX?usp=drive_link"
+          }
+        ]
       },
       {
         "id": "UED1-IA",
         "title": "Fondements de l’IA",
         "description": "Foundations of artificial intelligence.",
-        "coeff": 2
+        "coeff": 2,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/1RPHYuf5aUtjk2Glkww-ZOusE73O0wOIQ?usp=drive_link"
+          }
+        ]
       }
     ]
   },
@@ -50,37 +86,73 @@
         "id": "UEF1-CL",
         "title": "Conception de Logiciels",
         "description": "Software design.",
-        "coeff": 4
+        "coeff": 4,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/1egNsU6ztlix0LEkayh8Mw_JuWwZgWTBu?usp=drive_link"
+          }
+        ]
       },
       {
         "id": "UEF1-PWEB",
         "title": "Programmation Web",
         "description": "Web programming.",
-        "coeff": 3
+        "coeff": 3,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/1Svhx0C_yg4l4tIc6-ukEH1hHdw2tBjAH?usp=drive_link"
+          }
+        ]
       },
       {
         "id": "UEF2-BDDO",
         "title": "BDD : Optimisation et gestion des accès concurrents",
         "description": "Database optimization and concurrent access management.",
-        "coeff": 3
+        "coeff": 3,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/1X_A-xohFP8CNmg_ON0OXuGVCaREQSjCp?usp=drive_link"
+          }
+        ]
       },
       {
         "id": "UEF2-COMPL",
         "title": "Compilation",
         "description": "Compiler construction.",
-        "coeff": 4
+        "coeff": 4,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/1N3_sHIEocuSCrgJUAH4U_TzBY-rIUCtJ?usp=drive_link"
+          }
+        ]
       },
       {
         "id": "UEM1-AN",
         "title": "Analyse Numérique",
         "description": "Numerical analysis.",
-        "coeff": 3
+        "coeff": 3,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/1xohWl6vh_Y3Z4bIktgs0nW29hei2Ye6S?usp=drive_link"
+          }
+        ]
       },
       {
         "id": "UED1-SEC",
         "title": "Introduction à la Sécurité Informatique",
         "description": "Introduction to computer security.",
-        "coeff": 2
+        "coeff": 2,
+        "resources":[
+          {
+            "title":"Folder",
+            "link":"https://drive.google.com/drive/folders/1q_FQIlFlD9a6cQhW2Yz1mS3MmneVDEY0?usp=drive_link"
+          }
+        ]
       }
     ]
   }
