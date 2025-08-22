@@ -108,11 +108,11 @@
 
 @media (max-width: 900px) {
   .hero-container {
-    padding: 40px;
+    padding: 30px;
   }
 
-  #hero-title {
-    font-size: 1.8rem;
+  .hero-title {
+    font-size: 2.5rem;
   }
 
   #hero-paragraph {
@@ -120,22 +120,16 @@
   }
 }
 
-@media (max-width: 600px) {
-  #hero-title {
-    font-size: 1.3rem;
+@media (max-width: 500px) {
+  .hero-title {
+    font-size: 1.6rem;
   }
 
-  #hero-paragraph {
-    font-size: 0.95rem;
-  }
 
-  .hero-note {
-    font-size: 0.5rem;
-  }
+}
 
-  .hero-btn {
-    width: 60%;
-    font-size: 0.95rem;
-    height: 40px;
+@media (max-width: 350px){
+  .hero-title{
+    font-size: 1.2rem;
   }
 }

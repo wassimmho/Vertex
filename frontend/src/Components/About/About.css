@@ -79,3 +79,13 @@
         padding: 0 10px;
     }
 }
+
+@media (max-width : 390px){
+    #About-title{
+        font-size: 1.7rem;
+    }
+    #about-paragraph{
+        font-size: 0.8rem;
+
+    }
+}

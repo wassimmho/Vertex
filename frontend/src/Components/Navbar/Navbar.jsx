@@ -14,7 +14,6 @@ function Navbar() {
 
     return (
         <>
-            <nav>
                 <div className="navbar-container">
                     <img src={Logo} alt="" id="mainlogo" />
 
@@ -51,7 +50,6 @@ function Navbar() {
                         </button>
                     </div>
                 </div>
-            </nav>
             {menuOpen && (
                 <div className="mobile-menu-overlay">
                     <div className="mobile-menu-content">

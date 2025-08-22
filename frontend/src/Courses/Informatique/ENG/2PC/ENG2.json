@@ -38,7 +38,7 @@
               
               {
                 "title": "Bro Code",
-                "link": "https://www.youtube.com/@BroCodez"
+                "link": "https://www.youtube.com/playlist?list=PLZPZq0r_RZON1eaqfafTnEexRzuHbfZX8"
               }
             ],
             "Drive-links": [],
@@ -63,6 +63,28 @@
           {
             "title":"Exams",
             "link":"https://drive.google.com/drive/folders/1eOdz4u1lvgDshTsbYx7m6-Wq9Dz6U98Z?usp=sharing"
+          }
+        ],
+        "External Resources": [
+          {
+            "Youtube-links": [
+              {
+                "title":"Bro code Java",
+                "link":"https://youtu.be/xTtL8E4LzTQ?si=wlaFpi2Ni1dj8KMt"
+              }
+            ],
+            "Drive-links": [
+              {
+                "title": "Drive esi alger",
+                "link":"https://drive.google.com/drive/folders/18RQEKC5i-RD0XWBD8egGtzpzmbCs9pwX"
+              }
+            ],
+            "Other-links": [
+              {
+                "title": "exercism",
+                "link":"https://exercism.org/tracks/java"
+              }
+            ]
           }
         ]
       },
@@ -104,6 +126,32 @@
             "title":"Exams",
             "link":"https://drive.google.com/drive/folders/11ioiMpNPG5HpxPj6SU4LfNyFeMBwY0VD?usp=sharing"
           }
+        ],
+        "External Resources": [
+          {
+            "Youtube-links": [
+              {
+                "title":"Exo 7",
+                "link":"https://www.youtube.com/user/Exo7Math/playlists"
+              }
+            ],
+            "Drive-links": [
+              {
+                "title": "Drive esi alger",
+                "link":"https://drive.google.com/drive/folders/18RQEKC5i-RD0XWBD8egGtzpzmbCs9pwX"
+              }
+            ],
+            "Other-links": [
+              {
+              "title": "Math france",
+              "link":"https://maths-france.fr/math-sup/exercices/"
+            },
+            {
+              "title": "Bib Math",
+              "link":"https://www.bibmath.net"
+            }
+            ]
+          }
         ]
       },
       {
@@ -135,6 +183,28 @@
           {
             "title":"References",
             "link":"https://drive.google.com/drive/folders/1F6gKRTvJJpqNBCOdt_BHBlgHxzQooVWF?usp=drive_link"
+          }
+        ],
+        "External Resources": [
+          {
+            "Youtube-links": [
+            ],
+            "Drive-links": [
+              {
+                "title": "Drive esi alger",
+                "link":"https://drive.google.com/drive/folders/1NhkpQ6MmZ3Ktvywat7iv7OE0JoKnklds"
+              }
+            ],
+            "Other-links": [
+              {
+              "title": "Cours Mr.Lounis esi",
+              "link":"https://drive.google.com/drive/folders/1tkXB4hrOBq6yDBZOFenirlaZ70C535Tt"
+            },
+            {
+              "title": "Bib Math",
+              "link":"https://www.bibmath.net"
+            }
+            ]
           }
         ]
       },
