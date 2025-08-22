@@ -5,6 +5,7 @@ import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
+
 function Navbar() {
     const location = useLocation();
     const [menuOpen, setMenuOpen] = useState(false);
@@ -23,6 +24,9 @@ function Navbar() {
                         </li>
                         <li className={pathcheck("/study") ? "active" : ""}>
                             <Link to="/study">Study Resources</Link>
+                        </li>
+                        <li className={pathcheck("/Questions") ? "active" : ""}>
+                            <Link to="/Questions">Questions</Link>
                         </li>
                     </ul>
 
