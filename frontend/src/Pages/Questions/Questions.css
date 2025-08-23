@@ -3,7 +3,9 @@
 	padding: 0;
 	margin: 0;
 	font-family: 'Segoe UI', Arial, sans-serif;
-    padding-bottom: 2rem;
+	min-height: 100vh;
+	background: linear-gradient(135deg, #e7eef4 0%, #d4e2f0 100%);
+	padding-bottom: 2rem;
 }
 
 
@@ -198,4 +200,31 @@
     margin-bottom: 0.5rem;
     font-weight: 600;
     color: #333;
+}
+
+/* Modal Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    position: relative;
+    max-width: 90vw;
+    max-height: 90vh;
+    overflow-y: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.modal-content::-webkit-scrollbar {
+    display: none; /* WebKit browsers (Chrome, Safari, Edge) */
 }

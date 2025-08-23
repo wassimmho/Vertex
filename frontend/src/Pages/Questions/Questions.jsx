@@ -222,7 +222,6 @@ const Questions = () => {
                 <div className="modal-overlay" onClick={() => setModalOpen(false)}>
                     <div className="modal-content" onClick={e => e.stopPropagation()}>
                         <AddQuestion onAdd={e => e.preventDefault()} onCancel={() => setModalOpen(false)} />
-                        <button className="modal-close" onClick={() => setModalOpen(false)}>&times;</button>
                     </div>
                 </div>
             )}

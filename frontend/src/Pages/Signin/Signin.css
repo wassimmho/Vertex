@@ -216,6 +216,11 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .signin-container {
+    align-items: flex-start;
+    padding-top: 80px;
+  }
+  
   .signin-content {
     padding: 20px;
   }
@@ -238,6 +243,11 @@
 }
 
 @media (max-width: 480px) {
+  .signin-container {
+    align-items: flex-start;
+    padding-top: 70px;
+  }
+  
   .signin-form-wrapper {
     padding: 25px 15px;
     max-width: 350px;
