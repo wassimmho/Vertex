@@ -15,7 +15,9 @@ function Navbar() {
     return (
         <>
                 <div className="navbar-container">
-                    <img src={Logo} alt="" id="mainlogo" />
+                    <Link to="/home">
+                        <img src={Logo} alt="Vertex Logo" id="mainlogo" style={{ cursor: 'pointer' }} />
+                    </Link>
 
                     <ul className="nav-links">
                         <li className={["/home", "/"].includes(location.pathname) ? "active" : ""}>
