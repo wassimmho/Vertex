@@ -89,7 +89,7 @@
 
 .Questions-list {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
 	padding: 1rem;
 	gap: 1rem;
 }
@@ -202,6 +202,7 @@
     color: #333;
 }
 
+HEAD
 /* Modal Styles */
 .modal-overlay {
     position: fixed;
@@ -228,3 +229,22 @@
 .modal-content::-webkit-scrollbar {
     display: none; /* WebKit browsers (Chrome, Safari, Edge) */
 }
+
+@media (max-width : 1200px){
+        .Questions-list{
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media (max-width : 680px){
+    .questions-grid{
+        padding: 2rem 1rem;
+    }
+
+    
+}
+

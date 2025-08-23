@@ -207,12 +207,10 @@ const Questions = () => {
                 <div className="Questions-list">
                     {sortedQuestions.map((question, index) => (
                         <Question key={index} {...question} 
-                        onClick = {
-                            () => {
-                                const QuestionId = question.id
-                                navigate('/response', { state: { question: { ...question, id: QuestionId } } });
-                            }
-                        }
+                            onClick={() => {
+                                const QuestionId = question.id;
+                                navigate("/response", { state: { question: { ...question, id: QuestionId } } });
+                            }}
                         />
                     ))}
                 </div>
