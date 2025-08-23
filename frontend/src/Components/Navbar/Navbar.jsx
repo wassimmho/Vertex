@@ -72,6 +72,9 @@ function Navbar() {
                                 <Link to="/study" onClick={closeMenu}>Study Resources</Link>
                             </li>
                             <li>
+                                <Link to="/Questions" onClick={closeMenu}>Questions</Link>
+                            </li>
+                            <li>
                                 <a
                                     href="https://docs.google.com/forms/d/e/1FAIpQLSdxNnJYfr7VHsAjexJq2yvWaoo30azdNey_j4KVwYos3IaeZw/viewform?usp=dialog"
                                     target="_blank"

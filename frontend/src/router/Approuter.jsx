@@ -8,6 +8,8 @@ const AppRouter = () => (
       <Route path="/study" element={<Study />} />
       <Route path="/home" element={<Home />} />
       <Route path="/Questions" element={<Questions />} />
+      <Route path="/Login" element={<Questions />} />
+      <Route path="/Signin" element={<Questions />} />
     </Routes>
   );
   
