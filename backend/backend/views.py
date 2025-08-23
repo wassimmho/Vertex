@@ -4,6 +4,7 @@ from rest_framework.decorators import api_view
 from rest_framework_simplejwt.tokens import RefreshToken
 from django.contrib.auth.hashers import make_password
 from datetime import datetime
+from user.models import User
 
 
 @api_view(['POST'])

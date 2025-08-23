@@ -1,6 +1,6 @@
 
 from django.urls import path,include
-from views import Login,signin,new_Question,new_Response,showquestions,showresponses
+from user.views import new_Question,new_Response,showquestions,showresponses
 #{from views import }
 
 urlpatterns =[

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import "./Signin.css";
 
 const Signin = () => {
@@ -8,6 +9,8 @@ const Signin = () => {
     password: "",
     confirmPassword: "",
   });
+
+  const navigate = useNavigate();
 
   const [errors, setErrors] = useState({});
   const [isLoading, setIsLoading] = useState(false);
@@ -60,24 +63,33 @@ const Signin = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+    const username = formData.username
+    const password = formData.password
+    const email = formData.email
     const newErrors = validateForm();
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
       return;
     }
-    
+
     setIsLoading(true);
     
     try {
-      // Here you would typically make an API call to register
-      console.log("Signin attempt:", formData);
-      
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 1500));
-      
+      const response = await fetch('http://localhost:8000/api/signin/',{
+      method:'POST',
+      headers:{ 'Content-Type': 'application/json'},
+      body:JSON.stringify({username,email,password})
+    });
+
+    if (response.ok){
+      navigate('/home')
       // Handle successful registration here
       alert("Account created successfully!");
+    }
+      console.log("Signin attempt:", formData);
+      
+      
+
       
     } catch (error) {
       setErrors({ submit: "Registration failed. Please try again." });

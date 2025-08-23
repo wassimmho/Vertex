@@ -7,7 +7,7 @@ from django.contrib.auth.hashers import make_password
 from datetime import datetime
 # Create your views here.
 
-from models import User ,Tags,Questions,Response
+from .models import User ,Tags,Questions,Response
 
 
 @api_view(['POST'])

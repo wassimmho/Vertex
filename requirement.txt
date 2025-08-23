@@ -1,0 +1,14 @@
+pip install Django psycopg2-binary python-decouple
+
+
+ida bedelto les modules -----------------
+    python manage.py makemigrations
+    python manage.py migrate
+
+
+
+
+bach tmechi backend---------------
+    cd backend
+    venv\Scripts\activate
+    python manage.py runserver
