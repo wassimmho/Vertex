@@ -146,8 +146,8 @@
     font-family: Roboto, sans-serif;
 }
 .add-response-btn {
-	background: #0004ff;
-	color: #fff;
+	color: #000000;
+    background-color: #DBE9F8;
     font-family: 'Roboto', sans-serif;
 	border: none;
 	border-radius: 6px;
@@ -155,10 +155,16 @@
 	font-size: 1rem;
 	font-weight: 500;
 	cursor: pointer;
-	transition: background 0.2s;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 2px dashed rgba(0, 0, 0, 0.3);
+
 }
 .add-response-btn:hover {
 	background: #4338ca;
+	background-color: #c8dff6;
+	border-color: #4A90E2;
+	transform: translateY(-2px);
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 .responses-list {
 	display: flex;

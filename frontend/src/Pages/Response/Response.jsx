@@ -11,7 +11,7 @@ const Response = () => {
         id: 1,
         title: "Friendly URL is already in use problem in Liferay",
         content:
-            "I'm experiencing an issue where the friendly URL is already in use in Liferay...",
+            "I'm experiencing an issue where the friendly URL is already in use in LiferayI'm experiencing an issue where the friendly URL is already in use in Liferay. I've checked the database and there are no duplicate entries, but the error persists",
         userName: "Stamboli abdelmohssine",
         userAvatar: "https://i.pravatar.cc/100?img=69",
         onUpvote: () => {},
