@@ -27,6 +27,9 @@ function Navbar() {
                         <li className={pathcheck("/Questions") ? "active" : ""}>
                             <Link to="/Questions">Questions</Link>
                         </li>
+                        <li className={pathcheck("/new-feature") ? "active" : ""}>
+                            <Link to="/new-feature">Features</Link>
+                        </li>
                     </ul>
 
                     <div className="nav-buttons">
