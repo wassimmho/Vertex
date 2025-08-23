@@ -1,5 +1,4 @@
 import "./Navbar.css";
-import githublogo from "../../assets/github.svg";
 import Logo from "../../assets/vertex.svg";
 import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
@@ -40,9 +39,11 @@ function Navbar() {
                                 <button id="contribute-nav">Contribute</button>
                             </a>
                         </div>
-                        <a href="https://github.com/wassimmho" target="_blanc" id="githubnav">
-                            <img src={githublogo} alt="logo github" />
-                        </a>
+                        <div id="buttoncon">
+                            <Link to="/Login">
+                                <button id="login-nav">Login</button>
+                            </Link>
+                        </div>
                         <button
                             className="hamburger"
                             aria-label="Open menu"
@@ -83,6 +84,11 @@ function Navbar() {
                                 >
                                     <button id="contribute-nav-mobile">Contribute</button>
                                 </a>
+                            </li>
+                            <li>
+                                <Link to="/Login" onClick={closeMenu}>
+                                    <button id="login-nav-mobile">Login</button>
+                                </Link>
                             </li>
                         </ul>
                     </div>
