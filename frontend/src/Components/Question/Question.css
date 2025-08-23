@@ -102,3 +102,37 @@
     font-weight: bold;
     font-family:  "Tahoma", Geneva, Verdana, sans-serif;
 }
+
+@media (max-width : 1200px){
+    .question{
+        width: 700px;
+    }
+}
+
+@media (max-width : 680px){
+    .question{
+        width: 400px;
+    }
+
+    .question-title{
+        font-size: 1.3rem;
+    }
+
+	.question-username {
+    font-size: 1.2rem;
+    }
+}
+
+
+@media (max-width : 460px){
+    .question{
+        width: 280px;
+    }
+    .question-title{
+        font-size: 1.1rem;
+    }
+    .question-username {
+    font-size: .8rem;
+    }
+}
+

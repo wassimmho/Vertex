@@ -87,7 +87,7 @@
 
 .Questions-list {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
 	padding: 1rem;
 	gap: 1rem;
 }
@@ -198,4 +198,23 @@
     margin-bottom: 0.5rem;
     font-weight: 600;
     color: #333;
+}
+
+
+@media (max-width : 1200px){
+        .Questions-list{
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media (max-width : 680px){
+    .questions-grid{
+        padding: 2rem 1rem;
+    }
+
+    
 }
