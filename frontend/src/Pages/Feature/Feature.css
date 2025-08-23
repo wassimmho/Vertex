@@ -88,11 +88,28 @@
   gap: 20px;
 }
 
+
 .subject-input-group {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 100px;
+  display: flex;
+  flex-direction: row;
   gap: 10px;
-  align-items: center;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.input-label {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 4px;
+  font-weight: 500;
 }
 
 .subject-input,
@@ -209,15 +226,9 @@
   color: #666;
 }
 
+
 .input-labels {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 100px;
-  gap: 10px;
-  margin-bottom: 10px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 0.8rem;
-  color: #666;
+  display: none;
 }
 
 /* Responsive Design */
@@ -243,17 +254,12 @@
     min-height: auto;
   }
   .subject-input-group {
-    display: flex;
     flex-direction: column;
+    align-items: stretch;
     gap: 8px;
-    width: 100%;
   }
-  .input-labels {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    font-size: 0.75rem;
-    margin-bottom: 6px;
+  .input-field {
+    width: 100%;
   }
   .subject-input,
   .grade-input,

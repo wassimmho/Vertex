@@ -91,74 +91,80 @@ const Feature = () => {
                         </div>
                         
                         <div className="gpa-calculator">
-                            <div className="input-labels">
-                                <span>Subject Name</span>
-                                <span>CC (/20)</span>
-                                <span>Exam (/20)</span>
-                                <span>Coefficient</span>
-                                <span>Subject Avg</span>
-                                <span>Actions</span>
-                            </div>
-                            
                             {subjects.map((subject) => (
                                 <div key={subject.id} className="subject-input-group">
-                                    <input
-                                        type="text"
-                                        className="subject-input"
-                                        placeholder="e.g., Mathematics"
-                                        value={subject.name}
-                                        onChange={(e) => updateSubject(subject.id, 'name', e.target.value)}
-                                    />
-                                    <input
-                                        type="number"
-                                        className="grade-input"
-                                        placeholder="CC"
-                                        min="0"
-                                        max="20"
-                                        step="0.25"
-                                        value={subject.ccGrade}
-                                        onChange={(e) => updateSubject(subject.id, 'ccGrade', e.target.value)}
-                                    />
-                                    <input
-                                        type="number"
-                                        className="grade-input"
-                                        placeholder="Exam"
-                                        min="0"
-                                        max="20"
-                                        step="0.25"
-                                        value={subject.examGrade}
-                                        onChange={(e) => updateSubject(subject.id, 'examGrade', e.target.value)}
-                                    />
-                                    <input
-                                        type="number"
-                                        className="credit-input"
-                                        placeholder="Coeff"
-                                        min="1"
-                                        step="1"
-                                        value={subject.coefficient}
-                                        onChange={(e) => updateSubject(subject.id, 'coefficient', e.target.value)}
-                                    />
-                                    <div className="subject-average-display">
-                                        {subject.subjectAverage !== null ? `${subject.subjectAverage}/20` : '--'}
+                                    <div className="input-field">
+                                        <label className="input-label">Subject Name</label>
+                                        <input
+                                            type="text"
+                                            className="subject-input"
+                                            placeholder="e.g., Mathematics"
+                                            value={subject.name}
+                                            onChange={(e) => updateSubject(subject.id, 'name', e.target.value)}
+                                        />
                                     </div>
-                                    <button
-                                        className="remove-subject-btn"
-                                        onClick={() => removeSubject(subject.id)}
-                                        disabled={subjects.length === 1}
-                                    >
-                                        Remove
-                                    </button>
+                                    <div className="input-field">
+                                        <label className="input-label">CC (/20)</label>
+                                        <input
+                                            type="number"
+                                            className="grade-input"
+                                            placeholder="CC"
+                                            min="0"
+                                            max="20"
+                                            step="0.25"
+                                            value={subject.ccGrade}
+                                            onChange={(e) => updateSubject(subject.id, 'ccGrade', e.target.value)}
+                                        />
+                                    </div>
+                                    <div className="input-field">
+                                        <label className="input-label">Exam (/20)</label>
+                                        <input
+                                            type="number"
+                                            className="grade-input"
+                                            placeholder="Exam"
+                                            min="0"
+                                            max="20"
+                                            step="0.25"
+                                            value={subject.examGrade}
+                                            onChange={(e) => updateSubject(subject.id, 'examGrade', e.target.value)}
+                                        />
+                                    </div>
+                                    <div className="input-field">
+                                        <label className="input-label">Coefficient</label>
+                                        <input
+                                            type="number"
+                                            className="credit-input"
+                                            placeholder="Coeff"
+                                            min="1"
+                                            step="1"
+                                            value={subject.coefficient}
+                                            onChange={(e) => updateSubject(subject.id, 'coefficient', e.target.value)}
+                                        />
+                                    </div>
+                                    <div className="input-field">
+                                        <label className="input-label">Subject Avg</label>
+                                        <div className="subject-average-display">
+                                            {subject.subjectAverage !== null ? `${subject.subjectAverage}/20` : '--'}
+                                        </div>
+                                    </div>
+                                    <div className="input-field">
+                                        <label className="input-label">Actions</label>
+                                        <button
+                                            className="remove-subject-btn"
+                                            onClick={() => removeSubject(subject.id)}
+                                            disabled={subjects.length === 1}
+                                        >
+                                            Remove
+                                        </button>
+                                    </div>
                                 </div>
                             ))}
-                            
                             <button className="add-subject-btn" onClick={addSubject}>
                                 + Add Subject
                             </button>
-                            
                             <button className="calculate-btn" onClick={calculateAverages}>
                                 Calculate Averages
                             </button>
-                            
                             {semesterAverage !== null && (
                                 <div className="gpa-result">
                                     <div className="gpa-value">{semesterAverage}/20</div>
