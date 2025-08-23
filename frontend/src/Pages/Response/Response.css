@@ -209,3 +209,37 @@
 	text-align: center;
 	padding: 12px 0;
 }
+.add-response-field {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.add-response-field textarea {
+    width: 100%;
+    min-height: 80px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1rem;
+    resize: vertical;
+    font-family: 'Roboto', sans-serif;
+}
+
+.submit-response-btn {
+    align-self: flex-end;
+    background: #0004ff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 7px 18px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.submit-response-btn:hover {
+    background: #4338ca;
+}
