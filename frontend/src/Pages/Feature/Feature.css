@@ -229,41 +229,56 @@
 
 @media (max-width: 768px) {
   .feature-content {
-    padding: 20px 15px;
+    padding: 20px 8px;
   }
-  
   .feature-title {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
   }
-  
   .features-grid {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 16px;
   }
-  
   .feature-card {
-    padding: 25px;
+    padding: 15px;
     min-height: auto;
   }
-  
   .subject-input-group {
+    display: flex;
     flex-direction: column;
     gap: 8px;
+    width: 100%;
   }
-  
+  .input-labels {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 0.75rem;
+    margin-bottom: 6px;
+  }
   .subject-input,
   .grade-input,
   .credit-input {
     width: 100%;
+    font-size: 0.85rem;
   }
 }
 
 @media (max-width: 480px) {
   .feature-title {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
-  
   .feature-card {
-    padding: 15px;
+    padding: 8px;
+  }
+  .features-grid {
+    gap: 10px;
+  }
+  .gpa-result {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+  .subject-input-group, .input-labels {
+    overflow-x: auto;
+    min-width: 320px;
   }
 }
