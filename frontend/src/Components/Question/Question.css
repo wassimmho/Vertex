@@ -92,9 +92,10 @@
 	font-size: 1.05rem;
 }
 .question-title{
-    font-weight: 600;
-    font-family:  "Tahoma", Geneva, Verdana, sans-serif;
-    margin-bottom: 0.7rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #1e293b;
+     margin-bottom: 8px;
 }
 
 .question-username {

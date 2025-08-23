@@ -32,6 +32,7 @@ const Questions = () => {
 
     const QuestionInfo = [
         {
+            id: 1,
             title: "Friendly URL is already in use problem in Liferay ",
             content: "I'm experiencing an issue where the friendly URL is already in use in Liferay. I've checked the database and there are no duplicate entries, but the error persists.",
             userName: "Stamboli abdelmohssine",
@@ -42,6 +43,7 @@ const Questions = () => {
             createdAt: new Date()
         },
         {
+            id: 2,
             title: "How to implement SEO best practices in Liferay?",
             content: "I'm looking for guidance on implementing SEO best practices within Liferay.",
             userName: "John Doe",
@@ -52,6 +54,7 @@ const Questions = () => {
             createdAt: new Date(Date.now() - 10000000)
         },
         {
+            id: 3,
             title: "Best practices for using Liferay's Asset Publisher",
             content: "I'm trying to get the most out of Liferay's Asset Publisher. Any tips?",
             userName: "Jane Smith",
@@ -62,6 +65,7 @@ const Questions = () => {
             createdAt: new Date(Date.now() - 5000000)
         },
         {
+            id: 3,
             title: "Best practices for using Liferay's Asset Publisher",
             content: "I'm trying to get the most out of Liferay's Asset Publisher. Any tips?",
             userName: "Jane Smith",
@@ -72,6 +76,7 @@ const Questions = () => {
             createdAt: new Date(Date.now() - 5000000)
         },
         {
+            id: 4,
             title: "Best practices for using Liferay's Asset Publisher",
             content: "I'm trying to get the most out of Liferay's Asset Publisher. Any tips?",
             userName: "Jane Smith",
@@ -82,6 +87,7 @@ const Questions = () => {
             createdAt: new Date(Date.now() - 5000000)
         },
         {
+            id: 5,
             title: "Best practices for using Liferay's Asset Publisher",
             content: "I'm trying to get the most out of Liferay's Asset Publisher. Any tips?",
             userName: "Jane Smith",
@@ -92,6 +98,7 @@ const Questions = () => {
             createdAt: new Date(Date.now() - 5000000)
         },
         {
+            id: 5,
             title: "Best practices for using Liferay's Asset Publisher",
             content: "I'm trying to get the most out of Liferay's Asset Publisher. Any tips?",
             userName: "Jane Smith",
@@ -102,6 +109,7 @@ const Questions = () => {
             createdAt: new Date(Date.now() - 5000000)
         },
         {
+            id: 5,
             title: "Best practices for using Liferay's Asset Publisher",
             content: "I'm trying to get the most out of Liferay's Asset Publisher. Any tips?",
             userName: "Jane Smith",
@@ -112,6 +120,7 @@ const Questions = () => {
             createdAt: new Date(Date.now() - 5000000)
         },
         {
+            id: 5,
             title: "Best practices for using Liferay's Asset Publisher",
             content: "I'm trying to get the most out of Liferay's Asset Publisher. Any tips?",
             userName: "Jane Smith",
@@ -122,6 +131,7 @@ const Questions = () => {
             createdAt: new Date(Date.now() - 5000000)
         },
         {
+            id: 6,
             title: "Best practices for using Liferay's Asset Publisher",
             content: "I'm trying to get the most out of Liferay's Asset Publisher. Any tips?",
             userName: "Jane Smith",
@@ -196,7 +206,14 @@ const Questions = () => {
                 </div>
                 <div className="Questions-list">
                     {sortedQuestions.map((question, index) => (
-                        <Question key={index} {...question} />
+                        <Question key={index} {...question} 
+                        onClick = {
+                            () => {
+                                const QuestionId = question.id
+                                navigate('/response', { state: { question: { ...question, id: QuestionId } } });
+                            }
+                        }
+                        />
                     ))}
                 </div>
             </div>
