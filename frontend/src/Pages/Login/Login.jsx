@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Login.css";
-import Navbar from "../../Components/Navbar/Navbar";
 
 const Login = () => {
   const [formData, setFormData] = useState({
@@ -73,9 +72,12 @@ const Login = () => {
 
   return (
     <div className="login-container">
-      <div className="login-navbar">
-        <Navbar />
-      </div>
+      <button 
+        className="back-home-btn"
+        onClick={() => window.location.href = '/'}
+      >
+        ← Back to Home
+      </button>
       
       <div className="login-content">
         <div className="login-form-wrapper">
