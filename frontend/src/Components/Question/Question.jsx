@@ -1,9 +1,19 @@
-
 import React from "react";
 import "./Question.css";
 import Upvote from "../../assets/upvote.svg"; // Assuming you have an Upvote component
 
-function Question({ title, content, userName, userAvatar, onUpvote, upvotes, tags = [], createdAt }) {
+const TAG_OPTIONS = [
+    "React",
+    "JavaScript",
+    "CSS",
+    "HTML",
+    "Frontend",
+    "Backend",
+    "API",
+    "Database"
+];
+
+const Question = ({ title, content, userName, userAvatar, onUpvote, upvotes, tags = [], createdAt }) => {
     return (
         <div className="question">
             <div className="question-header">
