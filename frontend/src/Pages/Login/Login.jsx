@@ -1,14 +1,11 @@
 import React, { useState } from "react";
 import "./Login.css";
-import { Link, useNavigate } from "react-router-dom";
 
 const Login = () => {
   const [formData, setFormData] = useState({
-    email: "",
+    emailOrUsername: "",
     password: "",
   });
-
-  const navigate = useNavigate();
 
   const [errors, setErrors] = useState({});
   const [isLoading, setIsLoading] = useState(false);
@@ -32,8 +29,8 @@ const Login = () => {
   const validateForm = () => {
     const newErrors = {};
     
-    if (!formData.email.trim()) {
-      newErrors.email = "Email is required";
+    if (!formData.emailOrUsername.trim()) {
+      newErrors.emailOrUsername = "Email or username is required";
     }
     
     if (!formData.password.trim()) {
@@ -56,26 +53,15 @@ const Login = () => {
     
     setIsLoading(true);
     
-    const email = formData.email
-    const password = formData.password
-
     try {
-      const response = await fetch("http://localhost:8000/api/Login/",
-        {
-        method:'POST',
-        headers:{ 'Content-Type': 'application/json'},
-        body:JSON.stringify({email,password}),
-        }
-      )
-
-      const data = response.
-      if (response.ok){
-        localStorage.setItem("userid",response.id)
-        console.log(localStorage.userid)
-        console.log("Login attempt:", formData);
-        navigate('/home')
-      }
+      // Here you would typically make an API call to authenticate
+      console.log("Login attempt:", formData);
       
+      // Simulate API call
+      await new Promise(resolve => setTimeout(resolve, 1500));
+      
+      // Handle successful login here
+      alert("Login successful!");
       
     } catch (error) {
       setErrors({ submit: "Login failed. Please check your credentials." });
@@ -102,17 +88,17 @@ const Login = () => {
           
           <form className="login-form" onSubmit={handleSubmit}>
             <div className="form-group">
-              <label htmlFor="email" className="form-label">
-                Email
+              <label htmlFor="emailOrUsername" className="form-label">
+                Email or Username
               </label>
               <input
                 type="text"
                 id="emailOrUsername"
-                name="email"
-                value={formData.email}
+                name="emailOrUsername"
+                value={formData.emailOrUsername}
                 onChange={handleInputChange}
                 className={`form-input ${errors.emailOrUsername ? 'form-input-error' : ''}`}
-                placeholder="Enter your email"
+                placeholder="Enter your email or username"
               />
               {errors.emailOrUsername && (
                 <span className="error-message">{errors.emailOrUsername}</span>
