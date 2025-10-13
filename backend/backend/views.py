@@ -33,8 +33,11 @@ def signin(request):
     )
 
     return Response(
-        {'message':"User added to the DB"},
-        status = status.HTTP_201_CREATED
+        {'message':"User added to the DB",
+         "id": "user.id"
+         },
+        status = status.HTTP_201_CREATED,
+        
     )
 
 
@@ -42,14 +45,19 @@ def signin(request):
 @api_view(['POST'])
 def Login(request):
 
-    username = request.data.get("username")
     email = request.data.get("email")
     password = request.data.get("password")
 
+    if not email or not password:
+        return Response(
+            {"error": "Email and password are required."},
+            status=status.HTTP_400_BAD_REQUEST
+        )
+    
     user = None
 
     try:
-        user = User.objects.get(username = username)
+        user = User.objects.get(email = email)
 
         if not user.check_password(password):
             user = None
@@ -62,5 +70,6 @@ def Login(request):
     return Response({
         'refresh':str(refresh),
         'access':str(refresh.access_token),
-        'email' : email
+        'email' : email,
+        "id": user.id
     })

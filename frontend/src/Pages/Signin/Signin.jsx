@@ -81,9 +81,12 @@ const Signin = () => {
       body:JSON.stringify({username,email,password})
     });
 
+    
     if (response.ok){
+      const userid = await response.json();
+    localStorage.setItem("userid",userid)
+      console.log(localStorage.userid)
       navigate('/home')
-      // Handle successful registration here
       alert("Account created successfully!");
     }
       console.log("Signin attempt:", formData);

@@ -26,9 +26,9 @@ function Navbar() {
                         <li className={pathcheck("/study") ? "active" : ""}>
                             <Link to="/study">Study Resources</Link>
                         </li>
-                        <li className={pathcheck("/Questions") ? "active" : ""}>
+                        {/*<li className={pathcheck("/Questions") ? "active" : ""}>
                             <Link to="/Questions">Questions</Link>
-                        </li>
+                        </li>*/}
                         <li className={pathcheck("/new-feature") ? "active" : ""}>
                             <Link to="/new-feature">Features</Link>
                         </li>
@@ -93,11 +93,11 @@ function Navbar() {
                                     <button id="contribute-nav-mobile">Contribute</button>
                                 </a>
                             </li>
-                            <li>
+                            {/*<li>
                                 <Link to="/Login" onClick={closeMenu}>
                                     <button id="login-nav-mobile">Login</button>
                                 </Link>
-                            </li>
+                            </li>*/}
                         </ul>
                     </div>
                 </div>
