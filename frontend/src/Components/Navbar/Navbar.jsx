@@ -44,11 +44,11 @@ function Navbar() {
                                 <button id="contribute-nav">Contribute</button>
                             </a>
                         </div>
-                        <div id="buttoncon">
+                       {/*} <div id="buttoncon">
                             <Link to="/Login">
                                 <button id="login-nav">Login</button>
                             </Link>
-                        </div>
+                        </div>*/}
                         <button
                             className="hamburger"
                             aria-label="Open menu"
@@ -77,9 +77,9 @@ function Navbar() {
                             <li>
                                 <Link to="/study" onClick={closeMenu}>Study Resources</Link>
                             </li>
-                            <li>
+                            {/*<li>
                                 <Link to="/Questions" onClick={closeMenu}>Questions</Link>
-                            </li>
+                            </li>*/}
                             <li>
                                 <Link to="/new-feature" onClick={closeMenu}>Features</Link>
                             </li>
