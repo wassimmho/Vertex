@@ -22,10 +22,7 @@ function App() {
 
 
   return (
-    //<AddQuestion/>
-     <BrowserRouter>
       <AppRouter />
-    </BrowserRouter>
   )
 }
 
